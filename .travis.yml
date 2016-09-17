@@ -1,0 +1,19 @@
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# title      Travis CI Build Configuration                       +
+# project    nord-atom-syntax                                    +
+# version                                                        +
+# repository https://github.com/arcticicestudio/nord-atom-syntax +
+# author     Arctic Ice Studio                                   +
+# email      development@arcticicestudio.com                     +
+# copyright  Copyright (C) 2016                                  +
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+#
+# [References]
+# Travis CI Documentation
+#   (https://docs.travis-ci.com)
+language: objective-c
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'

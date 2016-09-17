@@ -1,0 +1,40 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language CSS                                        +
+project    nord-atom-syntax                                    +
+version                                                        +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Supports LESSCSS and Sass.
+
+[Language Packages]
+  > language-css (https://atom.io/packages/language-css)
+*/
+.source.css,
+.source.css.less,
+.source.css.scss,
+.source.css.sass {
+  .meta.at-rule {
+    .punctuation.definition.keyword {
+      color: @syntax-color-keyword;
+    }
+
+    & > .string.quoted {
+      color: @syntax-color-class;
+    }
+  }
+
+  .support {
+    &.constant.property-value {
+      color: @syntax-color-keyword;
+    }
+
+    &.type.property-name {
+      color: @syntax-color-css-property;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language Python                                     +
+project    nord-atom-syntax                                    +
+version                                                        +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Language Packages]
+  > language-python (https://atom.io/packages/language-python)
+
+[References]
+Ruby
+  (https://www.python.org)
+*/
+.source.python {
+  .variable.parameter {
+    color: @syntax-color-variable;
+  }
+
+  .meta.function-call {
+    color: @syntax-color-function;
+
+    &.arguments {
+      color: @syntax-color-variable;
+    }
+  }
+}

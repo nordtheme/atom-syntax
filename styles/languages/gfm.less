@@ -1,0 +1,34 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language GitHub Flavored Markdown                   +
+project    nord-atom-syntax                                    +
+version                                                        +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Language Packages]
+  > language-gfm (https://atom.io/packages/language-gfm)
+*/
+.source.gfm {
+  .comment.hr {
+    color: @syntax-color-gfm-hr;
+  }
+  .link .entity {
+    color: @syntax-color-gfm-link;
+  }
+  
+  .punctuation.definition {
+    color: @syntax-color-gfm-punctuation;
+  }
+  
+  .variable.unordered.list {
+    color: @syntax-color-gfm-punctuation;
+  }
+  
+  .support {
+    color: @syntax-color-markup-code;
+  }
+}

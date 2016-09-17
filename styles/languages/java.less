@@ -1,0 +1,90 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language Java                                       +
+project    nord-atom-syntax                                    +
+version                                                        +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Supports Java, Scala and Java Properties.
+
+[Index]
+  > Java
+  > Scala
+  > Java Properties
+
+[Language Packages]
+  > language-java (https://atom.io/packages/language-java)
+  > language-scala (https://atom.io/packages/language-scala)
+*/
+/*+------+
+  + Java +
+  +------+*/
+.source.java {
+  .keyword.operator.instanceof {
+    color: @syntax-color-keyword;
+  }
+
+  .punctuation.bracket.angle {
+    color: @syntax-color-java-bracket-angle;
+  }
+
+  .storage {
+    &.modifier.import {
+      color: @syntax-color-import;
+    }
+
+    &.type {
+      color: @syntax-color-class;
+
+      &.annotation {
+        color: @syntax-color-annotation;
+      }
+
+      &.primitive {
+        color: @syntax-color-keyword;
+      }
+    }
+  }
+}
+
+/*+-------+
+  + Scala +
+  +-------+*/
+.source.scala {
+  .entity.name.package {
+    color: @syntax-color-class;
+  }
+
+  .meta.import {
+    color: @syntax-color-class;
+
+    .variable {
+      color: @syntax-color-class;
+    }
+  }
+
+  .scala.type {
+    color: @syntax-color-class;
+
+    .class {
+      color: @syntax-color-class;
+    }
+  }
+}
+
+/*+-----------------+
+  + Java Properties +
+  +-----------------+*/
+.source.java-properties {
+  .meta.key-pair {
+    color: @syntax-color-keyword;
+
+    & > .punctuation {
+      color: @syntax-color-punctuation;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language Haskell                                    +
+project    nord-atom-syntax                                    +
+version                                                        +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Language Packages]
+  > language-haskell (https://atom.io/packages/language-haskell)
+
+[References]
+Haskell
+  (https://www.haskell.org)
+*/
+.source.haskell {
+  .entity.name.function.infix {
+    color: @syntax-color-keyword;
+  }
+
+  .identifier {
+    color: @syntax-color-variable;
+  }
+
+  .meta.preprocessor {
+    color: @syntax-color-preprocessor;
+  }
+
+  .punctuation.definition.directive {
+    color: @syntax-color-keyword;
+  }
+
+  .support.other.module {
+    color: @syntax-color-class;
+  }
+}

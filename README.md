@@ -26,7 +26,7 @@ apm install nord-atom-syntax
 
 **Activation**
   1. Open *Settings > Themes*
-  2. Select `Nord Atom` from the *UI Theme* drop-down menu
+  2. Select `Nord Atom` from the *Syntax Theme* drop-down menu
 
 ## Features
 ![][scrot-feature-bracketmarker]

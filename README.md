@@ -8,6 +8,10 @@
 Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.<br>
 Fits the <a href="https://atom.io/themes/nord-atom-ui">nord-atom-ui</a> theme.</p>
 
+![][scrot-top]
+> Icons provided by [file-icons](https://atom.io/packages/file-icons), minimap by [minimap](https://atom.io/packages/minimap).  
+Font is [Source Code Pro](https://adobe-fonts.github.io/source-code-pro) 20px.
+
 ## Getting started
 ### Installation
 **<img src="https://atom.io/favicon.ico" width=16 height=16/> [apm](https://github.com/atom/apm)**  
@@ -83,3 +87,4 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 [scrot-lang-php]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-php.png
 [scrot-lang-python]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-python.png
 [scrot-lang-ruby]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-ruby.png
+[scrot-top]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-top.png

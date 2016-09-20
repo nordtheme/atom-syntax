@@ -1,0 +1,164 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Editor                                              +
+project    nord-atom-syntax                                    +
+version    0.1.0                                               +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Index]
+  > Elements
+  > find-and-replace
+  > Gutter
+*/
+atom-text-editor,
+atom-text-editor::shadow,
+:host {
+  background-color: @syntax-background-color;
+  color: @syntax-text-color;
+
+  /*+----------+
+    + Elements +
+    +----------+*/
+  .bracket-matcher .region {
+    border: 1px solid @syntax-bracket-matcher-color;;
+    box-sizing: border-box;
+  }
+
+  .cursor {
+    border-left: 2px solid @syntax-cursor-color;
+  }
+
+  .indent-guide {
+    color: @syntax-indent-guide-color;
+  }
+
+  .invisible {
+    color: @syntax-invisible-character-color;
+  }
+
+  .invisible-character {
+    color: @syntax-invisible-character-color;
+  }
+
+  .line.cursor-line {
+    background-color: @syntax-cursor-line;
+  }
+
+  .selection .region {
+    background-color: @syntax-selection-color;
+  }
+
+  .wrap-guide {
+    background-color: @syntax-wrap-guide-color;
+  }
+
+  /*+------------------+
+    + find-and-replace +
+    +------------------+*/
+  .find-result .region.region.region,
+  .current-result .region.region.region {
+    background-color: @syntax-result-marker-color;
+    transition: border-color @syntax-transition-time;
+  }
+
+  .current-result .region.region.region {
+    background-color: fadein(@syntax-result-marker-color, 8%);
+    border: 2px solid @syntax-result-marker-color-selected;
+    transition-duration: @syntax-transition-time;
+  }
+
+  .find-result .region.region.region {
+    border: 2px solid transparent;
+  }
+
+  /*+--------+
+    + Gutter +
+    +--------+*/
+  .gutter {
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    background-color: @syntax-gutter-background-color;
+    margin-right: 0;
+    border-right: 0;
+    padding-right: 0;
+
+    .line-numbers {
+      background: transparent !important;
+    }
+
+    .line-number {
+      background: transparent;
+      color: @syntax-gutter-text-color;
+      padding-right: 0;
+
+      &.git-line-added {
+        color: @syntax-color-added;
+        border-left-color: @syntax-color-added;
+
+        &.cursor-line,
+        &.cursor-line-no-selection {
+          color: @syntax-color-added;
+          border-left-color: @syntax-color-added;
+        }
+      }
+
+      &.git-line-modified {
+        color: @syntax-color-modified;
+        border-left-color: @syntax-color-modified;
+
+        &.cursor-line,
+        &.cursor-line-no-selection {
+          color: @syntax-color-modified;
+          border-left-color: @syntax-color-modified;
+        }
+      }
+
+      &.git-line-removed {
+        color: @syntax-color-removed;
+        border-left-color: @syntax-color-removed;
+
+        &.cursor-line,
+        &.cursor-line-no-selection {
+          color: @syntax-color-removed;
+          border-left-color: @syntax-color-removed;
+        }
+      }
+
+      &.cursor-line,
+      &.cursor-line-no-selection {
+        color: @syntax-gutter-text-color-selected;
+        font-weight: 600;
+      }
+
+      .icon-right {
+        opacity: 1.0;
+        color: @syntax-gutter-text-color;
+        transition: all @syntax-transition-time ease;
+      }
+
+      .icon-right:hover {
+        color: @syntax-gutter-text-color-selected;
+      }
+    }
+  }
+
+  .gutter .line-number.folded,
+  .gutter .line-number:after,
+  .fold-marker:after {
+    color: @syntax-gutter-text-color-selected;
+
+    .icon-right {
+      opacity: 0.5;
+      color: @syntax-gutter-icon-color-folded;
+      transition: all @syntax-transition-time ease;
+
+      &:hover {
+        opacity: 1.0;
+      }
+    }
+  }
+}

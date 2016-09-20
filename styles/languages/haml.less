@@ -1,0 +1,44 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language HAML                                       +
+project    nord-atom-syntax                                    +
+version    0.1.0                                               +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Language Packages]
+  > language-haml (https://atom.io/packages/language-haml)
+
+[References]
+HAML
+  (http://haml.info)
+*/
+.text.haml {
+  .meta {
+    &.prolog {
+      color: @syntax-color-preprocessor;
+    }
+
+    &.section.object {
+      color: @syntax-color-class;
+    }
+  }
+
+  .punctuation.definition {
+    &.prolog {
+      color: @syntax-color-keyword;
+    }
+
+    &.tag {
+      color: @syntax-color-tag;
+    }
+  }
+
+  .variable.other.instance {
+    color: @syntax-color-variable;
+    font-style: italic;
+  }
+}

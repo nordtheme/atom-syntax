@@ -1,0 +1,44 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language JSON                                       +
+project    nord-atom-syntax                                    +
+version    0.1.0                                               +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Language Packages]
+  > language-json (https://atom.io/packages/language-json)
+
+[References]
+JSON
+  (http://www.json.org)
+*/
+.source.json {
+  .meta.structure.dictionary.json {
+    & > .string.quoted.json {
+      color: @syntax-color-attribute;
+
+      & > .punctuation.string {
+        color: @syntax-color-punctuation;
+      }
+    }
+  }
+
+  .meta.structure.dictionary.json,
+  .meta.structure.array.json {
+    & > .constant.language.json {
+      color: @syntax-color-keyword;
+    }
+
+    & > .value.json > .string.quoted.json {
+      color: @syntax-color-string;
+    }
+
+    & > .value.json > .string.quoted.json > .punctuation {
+      color: @syntax-color-punctuation;
+    }
+  }
+}

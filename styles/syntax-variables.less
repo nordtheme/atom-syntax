@@ -1,0 +1,126 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Syntax Variables                                    +
+project    nord-atom-syntax                                    +
+version    0.1.0                                               +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Index]
+  > Imports
+  > Animations
+  > Base
+  > Editor Elements
+  > Gutter
+  > Language Entities
+      Base
+      Specific
+  > Marker
+  > Sizes
+*/
+/*+---------+
+  + Imports +
+  +---------+*/
+@import "nord";
+
+/*+------------+
+  + Animations +
+  +------------+*/
+@syntax-transition-time: 400ms;
+
+/*+------+
+  + Base +
+  +------+*/
+@syntax-background-color: @nord0;
+@syntax-cursor-line: fade(@nord2, 32%);
+@syntax-selection-color: fade(@nord2, 80%);
+@syntax-selection-flash-color: @nord8;
+@syntax-text-color: @nord4;
+
+/*+-----------------+
+  + Editor Elements +
+  +-----------------+*/
+@syntax-cursor-color: @syntax-text-color;
+@syntax-indent-guide-color: @nord3;
+@syntax-invisible-character-color: @nord3;
+@syntax-wrap-guide-color: @nord3;
+
+/*+-----+
+  + Git +
+  +-----+*/
+@syntax-color-added: @nord14;
+@syntax-color-modified: @nord13;
+@syntax-color-removed: @nord11;
+@syntax-color-renamed: @nord8;
+
+/*+--------+
+  + Gutter +
+  +--------+*/
+@syntax-gutter-background-color: @syntax-background-color;
+@syntax-gutter-background-color-selected: transparent;
+@syntax-gutter-icon-color-folded: @nord8;
+@syntax-gutter-text-color: @syntax-gutter-text-color-subtle;
+@syntax-gutter-text-color-selected: @nord6;
+@syntax-gutter-text-color-subtle: fade(@syntax-text-color, 40%);
+
+/*+-------------------+
+  + Language Entities +
+  +-------------------+*/
+/*+--- Base ---+*/
+@syntax-color-annotation: @nord12;
+@syntax-color-attribute: @nord7;
+@syntax-color-attribute-id: @nord7;
+@syntax-color-class: @nord7;
+@syntax-color-comment: @nord3;
+@syntax-color-constant: @nord7;
+@syntax-color-embedded: @nord9;
+@syntax-color-escape: @nord12;
+@syntax-color-function: @nord8;
+@syntax-color-import: @nord7;
+@syntax-color-keyword: @nord9;
+@syntax-color-method: @nord8;
+@syntax-color-numeric: @nord15;
+@syntax-color-operator: @nord9;
+@syntax-color-placeholder: @nord12;
+@syntax-color-preprocessor: @nord10;
+@syntax-color-primitive: @nord9;
+@syntax-color-property: @nord9;
+@syntax-color-punctuation: @nord4;
+@syntax-color-regexp: @nord13;
+@syntax-color-require: @nord10;
+@syntax-color-selector: @nord7;
+@syntax-color-snippet: @nord4;
+@syntax-color-storage: @nord9;
+@syntax-color-string: @nord14;
+@syntax-color-tag: @nord9;
+@syntax-color-type: @nord7;
+@syntax-color-unit: @nord9;
+@syntax-color-variable: @nord4;
+@syntax-deprecated: @nord13;
+@syntax-illegal: @nord11;
+
+/*+--- Specific ---+*/
+@syntax-color-css-property: @nord7;
+@syntax-color-gfm-hr: @nord9;
+@syntax-color-gfm-link: @nord8;
+@syntax-color-gfm-punctuation: @nord9;
+@syntax-color-java-bracket-angle: @nord9;
+@syntax-color-markup-code: @nord7;
+@syntax-color-markup-heading: @nord8;
+@syntax-color-markup-heading-marker: @nord9;
+@syntax-color-markup-quote: @nord6;
+
+/*+--------+
+  + Marker +
+  +--------+*/
+@syntax-bracket-matcher-color: @nord8;
+@syntax-result-marker-color: fade(@nord8, 30%);
+@syntax-result-marker-color-selected: @nord8;
+
+/*+-------+
+  + Sizes +
+  +-------+*/
+@syntax-border-radius: 4px;

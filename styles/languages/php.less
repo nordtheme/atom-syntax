@@ -1,0 +1,41 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language PHP                                        +
+project    nord-atom-syntax                                    +
+version    0.1.0                                               +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Language Packages]
+  > language-php (https://atom.io/packages/language-php)
+
+[References]
+PHP
+  (https://secure.php.net)
+*/
+.source.php {
+  .meta {
+    &.function-call {
+      color: @syntax-color-function;
+
+      &.static {
+        font-style: italic;
+      }
+    }
+
+    &.string-contents {
+      color: @syntax-color-string;
+    }
+  }
+
+  .punctuation.definition.variable {
+    color: @syntax-color-keyword;
+  }
+
+  .support.other.namespace.use {
+    color: @syntax-color-class;
+  }
+}

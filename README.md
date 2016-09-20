@@ -5,7 +5,8 @@
 <p align="center">A arctic, north-bluish clean and elegant Atom syntax theme.</p>
 
 <p align="center">Designed for a fluent and clear workflow.<br>
-Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
+Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.<br>
+Fits the <a href="https://atom.io/themes/nord-atom-ui">nord-atom-ui</a> theme.</p>
 
 ## Getting started
 ### Installation

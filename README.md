@@ -23,6 +23,10 @@ apm install nord-atom-syntax
   1. Open *Settings > Themes*
   2. Select `Nord Atom` from the *UI Theme* drop-down menu
 
+## Languages
+This theme contains optimized styles to achieve a consistent and uniform coloring across languages.  
+Detailed descriptions for supported languages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-syntax/wiki/Optimized-Language-Styles).
+
 ## Development
 [![](https://img.shields.io/badge/Changelog-v0.0.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-syntax/blob/v0.0.0/CHANGELOG.md)
 

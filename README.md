@@ -57,7 +57,7 @@ Detailed descriptions for supported languages can be found in the [project wiki]
 ![][scrot-lang-ruby]
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-0.1.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-syntax/blob/v0.1.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
+[![](https://img.shields.io/badge/Changelog-0.1.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-syntax/v0.1.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-atom-syntax/issues).
@@ -66,19 +66,19 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 
 <p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/nord-atom-syntax/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
 
-[scrcast-feature-findandreplace]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrcast-feature-findandreplace.gif
-[scrcast-feature-selection]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrcast-feature-selection.gif
-[scrcast-feature-smoothtransition]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrcast-feature-smoothtransition.gif
-[scrot-feature-bracketmarker]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-feature-bracketmarker.png
-[scrot-feature-findandreplace]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-feature-findandreplace.png
-[scrot-lang-c]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-c.png
-[scrot-lang-java]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-java.png
-[scrot-lang-javascript]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-javascript.png
-[scrot-lang-json]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-json.png
-[scrot-lang-markdown]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-markdown.png
-[scrot-lang-php]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-php.png
-[scrot-lang-python]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-python.png
-[scrot-lang-ruby]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-ruby.png
-[scrot-top]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-top.png
+[scrcast-feature-findandreplace]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrcast-feature-findandreplace.gif
+[scrcast-feature-selection]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrcast-feature-selection.gif
+[scrcast-feature-smoothtransition]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrcast-feature-smoothtransition.gif
+[scrot-feature-bracketmarker]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-feature-bracketmarker.png
+[scrot-feature-findandreplace]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-feature-findandreplace.png
+[scrot-lang-c]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-c.png
+[scrot-lang-java]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-java.png
+[scrot-lang-javascript]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-javascript.png
+[scrot-lang-json]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-json.png
+[scrot-lang-markdown]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-markdown.png
+[scrot-lang-php]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-php.png
+[scrot-lang-python]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-python.png
+[scrot-lang-ruby]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-ruby.png
+[scrot-top]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-top.png

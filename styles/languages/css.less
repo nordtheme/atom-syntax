@@ -26,13 +26,21 @@ W3C
 .source.css.less,
 .source.css.scss,
 .source.css.sass {
-  .meta.at-rule {
-    .punctuation.definition.keyword {
-      color: @syntax-color-keyword;
+  .meta {
+    &.at-rule {
+      .punctuation.definition.keyword {
+        color: @syntax-color-keyword;
+      }
+
+      & > .string.quoted {
+        color: @syntax-color-class;
+      }
     }
 
-    & > .string.quoted {
-      color: @syntax-color-class;
+    &.property-value {
+      .punctuation.definition.constant {
+        color: @syntax-color-keyword;
+      }
     }
   }
 

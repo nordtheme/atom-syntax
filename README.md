@@ -27,6 +27,15 @@ apm install nord-atom-syntax
 This theme contains optimized styles to achieve a consistent and uniform coloring across languages.  
 Detailed descriptions for supported languages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-syntax/wiki/Optimized-Language-Styles).
 
+![](https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-c.png)
+![](https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-java.png)
+![](https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-javascript.png)
+![](https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-json.png)
+![](https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-markdown.png)
+![](https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-php.png)
+![](https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-python.png)
+![](https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-ruby.png)
+
 ## Development
 [![](https://img.shields.io/badge/Changelog-v0.0.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-syntax/blob/v0.0.0/CHANGELOG.md)
 

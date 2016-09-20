@@ -1,8 +1,17 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-syntax/develop/assets/nord-atom-syntax-banner.svg"/></p>
 
-# 0.1.0 (2016-09-20)
-<img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a>
+<p align="center"><img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a></p>
 
+# 0.2.0 (2016-09-20)
+## Improvements
+### CSS
+  - The hex color hash character `#` now gets colored as keyword (@arcticicestudio, #27, 323f7713333ad50b008c80a677e4abb6596faddb)
+
+## Bugfixes
+### Documentation
+  - Fixed all unrendered images in the [atom.io](https://atom.io/themes/nord-atom-syntax) package README by using the `https://raw.githubusercontent.com` domain (@arcticicestudio, #26, 6b72d3a740486d48b9a0d02f4aec3db557241462)
+
+# 0.1.0 (2016-09-20)
 **Initial APM package release version!**  
 *Closes the [APM Package Release](https://github.com/arcticicestudio/nord-atom-syntax/milestone/1) milestone.*
 

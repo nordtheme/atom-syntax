@@ -5,7 +5,12 @@
 <p align="center">A arctic, north-bluish clean and elegant Atom syntax theme.</p>
 
 <p align="center">Designed for a fluent and clear workflow.<br>
-Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.</p>
+Based on the <a href="https://github.com/arcticicestudio/nord">Nord</a> color palette.<br>
+Fits the <a href="https://atom.io/themes/nord-atom-ui">nord-atom-ui</a> theme.</p>
+
+![][scrot-top]
+> Icons provided by [file-icons](https://atom.io/packages/file-icons), minimap by [minimap](https://atom.io/packages/minimap).  
+Font is [Source Code Pro](https://adobe-fonts.github.io/source-code-pro) 20px.
 
 ## Getting started
 ### Installation
@@ -21,16 +26,38 @@ apm install nord-atom-syntax
 
 **Activation**
   1. Open *Settings > Themes*
-  2. Select `Nord Atom` from the *UI Theme* drop-down menu
+  2. Select `Nord Atom` from the *Syntax Theme* drop-down menu
+
+## Features
+![][scrot-feature-bracketmarker]
+
+![][scrot-feature-findandreplace]
+> Non-obtrusive bracket matching- and `find-and-replace` marker.  
+Unselected line numbers are hidden in order to keep the focus.
+
+![][scrcast-feature-smoothtransition]
+
+![][scrcast-feature-findandreplace]
+> Smooth transitions for gutter- and `find-and-replace` interactions.
+
+![][scrcast-feature-selection]
+> Colors of selected code can still be easily recognized.
+
+## Languages
+This theme contains optimized styles to achieve a consistent and uniform coloring across languages.  
+Detailed descriptions for supported languages can be found in the [project wiki](https://github.com/arcticicestudio/nord-atom-syntax/wiki/Optimized-Language-Styles).
+
+![][scrot-lang-c]
+![][scrot-lang-java]
+![][scrot-lang-javascript]
+![][scrot-lang-json]
+![][scrot-lang-markdown]
+![][scrot-lang-php]
+![][scrot-lang-python]
+![][scrot-lang-ruby]
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-v0.0.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-syntax/blob/v0.0.0/CHANGELOG.md)
-
-### Workflow
-This project follows the [gitflow](http://nvie.com/posts/a-successful-git-branching-model) branching model.
-
-### Specifications
-This project follows the [Arctic Versioning Specification (ArcVer)](https://github.com/arcticicestudio/arcver).
+[![](https://img.shields.io/badge/Changelog-0.0.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-syntax/blob/v0.0.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-atom-syntax/issues).
@@ -40,3 +67,18 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 <p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2016 Arctic Ice Studio</p>
 
 <p align="center"><a href="https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-blue.svg"/></a></p>
+
+[scrcast-feature-findandreplace]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrcast-feature-findandreplace.gif
+[scrcast-feature-selection]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrcast-feature-selection.gif
+[scrcast-feature-smoothtransition]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrcast-feature-smoothtransition.gif
+[scrot-feature-bracketmarker]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-feature-bracketmarker.png
+[scrot-feature-findandreplace]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-feature-findandreplace.png
+[scrot-lang-c]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-c.png
+[scrot-lang-java]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-java.png
+[scrot-lang-javascript]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-javascript.png
+[scrot-lang-json]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-json.png
+[scrot-lang-markdown]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-markdown.png
+[scrot-lang-php]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-php.png
+[scrot-lang-python]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-python.png
+[scrot-lang-ruby]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-lang-ruby.png
+[scrot-top]: https://github.com/arcticicestudio/nord-atom-syntax/blob/develop/assets/scrot-top.png

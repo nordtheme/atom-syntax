@@ -18,6 +18,14 @@ Standard C++
 */
 .source.c,
 .source.cpp {
+  .keyword.operator {
+    color: @syntax-color-keyword;
+  }
+
+  .meta.preprocessor {
+    color: @syntax-color-preprocessor;
+  }
+
   .punctuation {
     &.definition.directive {
       color: @syntax-color-keyword;
@@ -26,10 +34,6 @@ Standard C++
     &.separator.pointer-access {
       color: @syntax-color-operator;
     }
-  }
-
-  .meta.preprocessor {
-    color: @syntax-color-preprocessor;
   }
 
   .string.include {

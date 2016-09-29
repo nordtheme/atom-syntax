@@ -2,6 +2,13 @@
 
 <p align="center"><img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a></p>
 
+---
+
+# 0.3.0 (2016-09-29)
+## Improvements
+### `language-c`
+  - Operator keywords are now colored explicitly as discussed in atom/language-c#151 and atom/one-dark-syntax#74 (@arcticicestudio, #34, 529f290057da332977ddcbcba3e14163e772bbc0)
+
 # 0.2.0 (2016-09-20)
 ## Improvements
 ### CSS

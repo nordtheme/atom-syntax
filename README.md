@@ -55,6 +55,7 @@ Detailed descriptions for supported languages can be found in the [project wiki]
 ![][scrot-lang-php]
 ![][scrot-lang-python]
 ![][scrot-lang-ruby]
+![][scrot-lang-xml]
 
 ## Development
 [![](https://img.shields.io/badge/Changelog-0.3.0-blue.svg)](https://github.com/arcticicestudio/nord-atom-syntax/blob/v0.3.0/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-blue.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-blue.svg)](https://github.com/arcticicestudio/arcver)
@@ -81,4 +82,5 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 [scrot-lang-php]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-php.png
 [scrot-lang-python]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-python.png
 [scrot-lang-ruby]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-ruby.png
+[scrot-lang-xml]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-xml.png
 [scrot-top]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-top.png

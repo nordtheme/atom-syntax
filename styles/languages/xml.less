@@ -1,6 +1,6 @@
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Language Haskell                                    +
+title      Language XML                                        +
 project    nord-atom-syntax                                    +
 repository https://github.com/arcticicestudio/nord-atom-syntax +
 author     Arctic Ice Studio                                   +
@@ -9,30 +9,30 @@ copyright  Copyright (C) 2016                                  +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [Language Packages]
-  > language-haskell (https://atom.io/packages/language-haskell)
+  > language-xml (https://atom.io/packages/language-xml)
 
 [References]
-Haskell
-  (https://www.haskell.org)
+W3C
+  (https://www.w3.org/TR/xml)
 */
-.source.haskell {
-  .entity.name.function.infix {
-    color: @syntax-color-keyword;
+.text.xml {
+  .constant.character {
+    &.entity,
+    .punctuation.definition {
+      color: @syntax-color-markup-entity;
+    }
   }
 
-  .identifier {
-    color: @syntax-color-variable;
+  .entity.name.tag.namespace {
+    color: @syntax-color-attribute;
   }
 
-  .meta.preprocessor {
-    color: @syntax-color-preprocessor;
-  }
+  .string.unquoted.cdata {
+    color: @syntax-color-comment;
 
-  .punctuation.definition.directive {
-    color: @syntax-color-keyword;
-  }
-
-  .support.other.module {
-    color: @syntax-color-class;
+    .punctuation.definition {
+      color: @syntax-color-comment;
+      font-weight: bold;
+    }
   }
 }

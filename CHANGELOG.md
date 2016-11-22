@@ -1,22 +1,30 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-syntax/develop/assets/nord-atom-syntax-banner.svg"/></p>
 
-<p align="center"><img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/dm/nord-atom-syntax.svg"/></a></p>
 
 ---
+
+# 0.4.0 (2016-11-22)
+## Features
+### `language-xml`
+The namespace tag entity color now differs from markup/HTML tags which are also now colored correctly.  
+*Character Data* blocks tags `<![CDATA[` `]]>` are now formated bold and, including the surrounded text, using the comment color. (@arcticicestudio, #29, a442b356)
+
+<p align="center">CDATA<br><img src="https://cloud.githubusercontent.com/assets/7836623/20519301/ab2eef32-b0a2-11e6-8d67-6a1c09389ef7.png"/><br>Markup/HTML entities<br><img src="https://cloud.githubusercontent.com/assets/7836623/20519310/b48f5bca-b0a2-11e6-9aa3-24b826ae6817.png"/><br>Namespace tags<br><img src="https://cloud.githubusercontent.com/assets/7836623/20519313/bb8ac126-b0a2-11e6-8055-40b49465012e.png"/></p>
 
 # 0.3.0 (2016-09-29)
 ## Improvements
 ### `language-c`
-  - Operator keywords are now colored explicitly as discussed in atom/language-c#151 and atom/one-dark-syntax#74 (@arcticicestudio, #34, 529f290057da332977ddcbcba3e14163e772bbc0)
+Operator keywords are now colored explicitly as discussed in atom/language-c#151 and atom/one-dark-syntax#74 (@arcticicestudio, #34, 529f290057da332977ddcbcba3e14163e772bbc0)
 
 # 0.2.0 (2016-09-20)
 ## Improvements
 ### CSS
-  - The hex color hash character `#` now gets colored as keyword (@arcticicestudio, #27, 323f7713333ad50b008c80a677e4abb6596faddb)
+The hex color hash character `#` now gets colored as keyword (@arcticicestudio, #27, 323f7713333ad50b008c80a677e4abb6596faddb)
 
 ## Bugfixes
 ### Documentation
-  - Fixed all unrendered images in the [atom.io](https://atom.io/themes/nord-atom-syntax) package README by using the `https://raw.githubusercontent.com` domain (@arcticicestudio, #26, 6b72d3a740486d48b9a0d02f4aec3db557241462)
+Fixed all unrendered images in the [atom.io](https://atom.io/themes/nord-atom-syntax) package README by using the `https://raw.githubusercontent.com` domain (@arcticicestudio, #26, 6b72d3a740486d48b9a0d02f4aec3db557241462)
 
 # 0.1.0 (2016-09-20)
 **Initial APM package release version!**  

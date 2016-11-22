@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-syntax/develop/assets/nord-atom-syntax-banner.svg"/></p>
 
-<p align="center"><img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/dm/nord-atom-syntax.svg"/></a></p>
 
 ---
 

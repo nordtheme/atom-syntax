@@ -15,28 +15,28 @@ copyright  Copyright (C) 2016                                  +
 HAML
   (http://haml.info)
 */
-.text.haml {
-  .meta {
-    &.prolog {
+.syntax--text.syntax--haml {
+  .syntax--meta {
+    &.syntax--prolog {
       color: @syntax-color-preprocessor;
     }
 
-    &.section.object {
+    &.syntax--section.syntax--object {
       color: @syntax-color-class;
     }
   }
 
-  .punctuation.definition {
-    &.prolog {
+  .syntax--punctuation.syntax--definition {
+    &.syntax--prolog {
       color: @syntax-color-keyword;
     }
 
-    &.tag {
+    &.syntax--tag {
       color: @syntax-color-tag;
     }
   }
 
-  .variable.other.instance {
+  .syntax--variable.syntax--other.syntax--instance {
     color: @syntax-color-variable;
     font-style: italic;
   }

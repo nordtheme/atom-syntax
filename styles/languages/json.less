@@ -15,28 +15,28 @@ copyright  Copyright (C) 2016                                  +
 JSON
   (http://www.json.org)
 */
-.source.json {
-  .meta.structure.dictionary.json {
-    & > .string.quoted.json {
+.syntax--source.syntax--json {
+  .syntax--meta.syntax--structure.syntax--dictionary.syntax--json {
+    & > .syntax--string.syntax--quoted.syntax--json {
       color: @syntax-color-attribute;
 
-      & > .punctuation.string {
+      & > .syntax--punctuation.syntax--string {
         color: @syntax-color-punctuation;
       }
     }
   }
 
-  .meta.structure.dictionary.json,
-  .meta.structure.array.json {
-    & > .constant.language.json {
+  .syntax--meta.syntax--structure.syntax--dictionary.syntax--json,
+  .syntax--meta.syntax--structure.syntax--array.syntax--json {
+    & > .syntax--constant.syntax--language.syntax--json {
       color: @syntax-color-keyword;
     }
 
-    & > .value.json > .string.quoted.json {
+    & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json {
       color: @syntax-color-string;
     }
 
-    & > .value.json > .string.quoted.json > .punctuation {
+    & > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
       color: @syntax-color-punctuation;
     }
   }

@@ -29,28 +29,28 @@ Scala
 /*+------+
   + Java +
   +------+*/
-.source.java {
-  .keyword.operator.instanceof {
+.syntax--source.syntax--java {
+  .syntax--keyword.syntax--operator.syntax--instanceof {
     color: @syntax-color-keyword;
   }
 
-  .punctuation.bracket.angle {
+  .syntax--punctuation.syntax--bracket.syntax--angle {
     color: @syntax-color-java-bracket-angle;
   }
 
-  .storage {
-    &.modifier.import {
+  .syntax--storage {
+    &.syntax--modifier.syntax--import {
       color: @syntax-color-import;
     }
 
-    &.type {
+    &.syntax--type {
       color: @syntax-color-class;
 
-      &.annotation {
+      &.syntax--annotation {
         color: @syntax-color-annotation;
       }
 
-      &.primitive {
+      &.syntax--primitive {
         color: @syntax-color-keyword;
       }
     }
@@ -60,23 +60,23 @@ Scala
 /*+-------+
   + Scala +
   +-------+*/
-.source.scala {
-  .entity.name.package {
+.syntax--source.syntax--scala {
+  .syntax--entity.syntax--name.syntax--package {
     color: @syntax-color-class;
   }
 
-  .meta.import {
+  .syntax--meta.syntax--import {
     color: @syntax-color-class;
 
-    .variable {
+    .syntax--variable {
       color: @syntax-color-class;
     }
   }
 
-  .scala.type {
+  .syntax--scala.syntax--type {
     color: @syntax-color-class;
 
-    .class {
+    .syntax--class {
       color: @syntax-color-class;
     }
   }
@@ -85,11 +85,11 @@ Scala
 /*+-----------------+
   + Java Properties +
   +-----------------+*/
-.source.java-properties {
-  .meta.key-pair {
+.syntax--source.syntax--java-properties {
+  .syntax--meta.syntax--key-pair {
     color: @syntax-color-keyword;
 
-    & > .punctuation {
+    & > .syntax--punctuation {
       color: @syntax-color-punctuation;
     }
   }

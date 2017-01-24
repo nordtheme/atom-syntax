@@ -1,0 +1,32 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language Elixir                                         +
+project    nord-atom-syntax                                    +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2016                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Language Packages]
+  > language-elixir (https://atom.io/packages/language-elixir)
+
+[References]
+Elixir
+  (http://elixir-lang.org)
+*/
+.syntax--source.syntax--elixir {
+  .syntax--variable.syntax--other.syntax--readwrite {
+    &.syntax--module {
+      color: @syntax-color-annotation;
+    }
+
+    &.syntax--constant {
+      color: @syntax-color-class;
+    }
+  }
+  
+  .syntax--punctuation.syntax--definition.syntax--variable {
+    color: @syntax-color-annotation;
+  }
+}

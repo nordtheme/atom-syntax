@@ -15,22 +15,22 @@ copyright  Copyright (C) 2016                                  +
 W3C
   (https://www.w3.org/TR/xml)
 */
-.text.xml {
-  .constant.character {
-    &.entity,
-    .punctuation.definition {
+.syntax--text.syntax--xml {
+  .syntax--constant.syntax--character {
+    &.syntax--entity,
+    .syntax--punctuation.syntax--definition {
       color: @syntax-color-markup-entity;
     }
   }
 
-  .entity.name.tag.namespace {
+  .syntax--entity.syntax--name.syntax--tag.syntax--namespace {
     color: @syntax-color-attribute;
   }
 
-  .string.unquoted.cdata {
+  .syntax--string.syntax--unquoted.syntax--cdata {
     color: @syntax-color-comment;
 
-    .punctuation.definition {
+    .syntax--punctuation.syntax--definition {
       color: @syntax-color-comment;
       font-weight: bold;
     }

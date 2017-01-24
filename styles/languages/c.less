@@ -15,27 +15,27 @@ copyright  Copyright (C) 2016                                  +
 Standard C++
   (https://isocpp.org)
 */
-.source.c,
-.source.cpp {
-  .keyword.operator {
+.syntax--source.syntax--c,
+.syntax--source.syntax--cpp {
+  .syntax--keyword.syntax--operator {
     color: @syntax-color-keyword;
   }
 
-  .meta.preprocessor {
+  .syntax--meta.syntax--preprocessor {
     color: @syntax-color-preprocessor;
   }
 
-  .punctuation {
-    &.definition.directive {
+  .syntax--punctuation {
+    &.syntax--definition.syntax--directive {
       color: @syntax-color-keyword;
     }
 
-    &.separator.pointer-access {
+    &.syntax--separator.syntax--pointer-access {
       color: @syntax-color-operator;
     }
   }
 
-  .string.include {
+  .syntax--string.syntax--include {
     color: @syntax-color-class;
   }
 }

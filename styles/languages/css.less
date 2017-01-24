@@ -21,34 +21,34 @@ Sass
 W3C
   (https://www.w3.org/TR/css3-roadmap)
 */
-.source.css,
-.source.css.less,
-.source.css.scss,
-.source.css.sass {
-  .meta {
-    &.at-rule {
-      .punctuation.definition.keyword {
+.syntax--source.syntax--css,
+.syntax--source.syntax--css.syntax--less,
+.syntax--source.syntax--css.syntax--scss,
+.syntax--source.syntax--css.syntax--sass {
+  .syntax--meta {
+    &.syntax--at-rule {
+      .syntax--punctuation.syntax--definition.syntax--keyword {
         color: @syntax-color-keyword;
       }
 
-      & > .string.quoted {
+      & > .syntax--string.syntax--quoted {
         color: @syntax-color-class;
       }
     }
 
-    &.property-value {
-      .punctuation.definition.constant {
+    &.syntax--property-value {
+      .syntax--punctuation.syntax--definition.syntax--constant {
         color: @syntax-color-keyword;
       }
     }
   }
 
-  .support {
-    &.constant.property-value {
+  .syntax--support {
+    &.syntax--constant.syntax--property-value {
       color: @syntax-color-keyword;
     }
 
-    &.type.property-name {
+    &.syntax--type.syntax--property-name {
       color: @syntax-color-css-property;
     }
   }

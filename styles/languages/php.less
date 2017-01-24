@@ -15,26 +15,26 @@ copyright  Copyright (C) 2016                                  +
 PHP
   (https://secure.php.net)
 */
-.source.php {
-  .meta {
-    &.function-call {
+.syntax--source.syntax--php {
+  .syntax--meta {
+    &.syntax--function-call {
       color: @syntax-color-function;
 
-      &.static {
+      &.syntax--static {
         font-style: italic;
       }
     }
 
-    &.string-contents {
+    &.syntax--string-contents {
       color: @syntax-color-string;
     }
   }
 
-  .punctuation.definition.variable {
+  .syntax--punctuation.syntax--definition.syntax--variable {
     color: @syntax-color-keyword;
   }
 
-  .support.other.namespace.use {
+  .syntax--support.syntax--other.syntax--namespace.syntax--use {
     color: @syntax-color-class;
   }
 }

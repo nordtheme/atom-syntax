@@ -39,8 +39,11 @@ Scala
   }
 
   .syntax--storage {
-    &.syntax--modifier.syntax--import {
-      color: @syntax-color-import;
+    &.syntax--modifier {
+      &.syntax--import,
+      &.syntax--package {
+        color: @syntax-color-import;
+      }
     }
 
     &.syntax--type {

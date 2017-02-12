@@ -1,0 +1,32 @@
+/*
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+title      Language diff                                       +
+project    nord-atom-syntax                                    +
+repository https://github.com/arcticicestudio/nord-atom-syntax +
+author     Arctic Ice Studio                                   +
+email      development@arcticicestudio.com                     +
+copyright  Copyright (C) 2017                                  +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+[Language Packages]
+  > language-diff (https://atom.io/packages/language-diff)
+*/
+.syntax--source.syntax--diff {
+  .syntax--meta {
+    &.syntax--range.syntax--context,
+    &.syntax--header.syntax--from-file {
+      color: @syntax-color-class;
+    }
+  }
+  
+  .syntax--punctuation.syntax--definition.syntax--separator {
+    color: @syntax-color-diff-separator;
+  }
+  
+  .syntax--punctuation.syntax--definition {
+    &.syntax--from-file,
+    &.syntax--range {
+      color: @syntax-color-class;
+    }
+  }
+}

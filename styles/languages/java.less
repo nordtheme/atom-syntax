@@ -36,8 +36,14 @@ Scala
     }
   }
 
-  .syntax--keyword.syntax--operator.syntax--instanceof {
-    color: @syntax-color-keyword;
+  .syntax--keyword {
+    &.syntax--operator.syntax--instanceof {
+      color: @syntax-color-keyword;
+    }
+
+    &.syntax--other.syntax--documentation.syntax--javadoc {
+      color: @syntax-color-java-javadoc-tag;
+    }
   }
 
   .syntax--punctuation.syntax--bracket.syntax--angle {

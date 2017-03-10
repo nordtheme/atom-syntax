@@ -20,9 +20,16 @@ Docutils
     color: @syntax-color-tag;
   }
 
-  .syntax--markup.syntax--other.syntax--command {
-    color: @syntax-color-markup-code;
-    font-style: italic;
+  .syntax--markup {
+    &.syntax--bold,
+    &.syntax--italic {
+      color: @syntax-color-markup-punctuation;
+    }
+
+    &.syntax--other.syntax--command {
+      color: @syntax-color-markup-code;
+      font-style: italic;
+    }
   }
 
   .syntax--punctuation {

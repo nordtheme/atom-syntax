@@ -4,6 +4,53 @@
 
 ---
 
+# 0.7.0
+*2017-04-01*
+## Features
+### Languages
+❯ Implemented optimized [diff](https://en.wikipedia.org/wiki/Diff_utility)/[patch](https://en.wikipedia.org/wiki/Patch_(Unix)) styles for the [milestone backlog][milestone-package-support-backlog] community package <img src="https://avatars2.githubusercontent.com/u/529516" width=16 height=16/>  [`language-diff`](https://atom.io/packages/language-diff). (@arcticicestudio, #34, f05c8bf6)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/24577810/6be899c4-16d5-11e7-8487-ce26987fb43b.png"/></p>
+
+❯ Implemented optimized
+[reStructuredText](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) styles for the [milestone backlog][milestone-package-support-backlog] community package <img src="https://avatars0.githubusercontent.com/u/1382556" width=16 height=16/> [`language-restructuredtext`](https://atom.io/packages/language-restructuredtext). (@adrian5, #37, 099eea88)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/24577665/8b803448-16d2-11e7-96a0-abdd207aa08c.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/24577668/8e0bb71e-16d2-11e7-8a7d-4fd0c115f08c.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/24577669/8fff0184-16d2-11e7-9198-118fb9e6febd.png"/></p>
+
+## Improvements
+### Languages
+❯ JavaDoc tags and their values are now colorized with `nord8`. (@arcticicestudio, #39, 72449d36)
+
+<p align="center"><strong>JavaDoc tags</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24577698/f30ea6f8-16d2-11e7-96a1-1acebfa7de39.png"/><br><strong>JavaDoc <code>{@link}</code> tag method references</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24577703/12d76f1a-16d3-11e7-99dc-16a24fb35ac9.png"/></p>
+
+❯ Adapted the massive grammar overhaul of the Atom Core package <img src="https://avatars0.githubusercontent.com/u/1089146" width=16 height=16/> [language-csharp](https://atom.io/packages/language-csharp) implemented in PR [atom/language-csharp #87](https://github.com/atom/language-csharp/pull/87). (@arcticicestudio, #38, 0420c417)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/24577715/3a62c890-16d3-11e7-9fb1-01f6b2636787.png"/></p>
+
+❯ Adjusted the color of Java packages to match `import` packages. (@arcticicestudio, #35, dc6ce037)
+
+❯ Content inside a
+```html
+<![CDATA[
+
+]]>
+```
+block is now colorized with the default text color `nord4` and the font style is `italic` to differ from normal text. (@arcticicestudio, #41, d9c41eba)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/24577684/c359c9c4-16d2-11e7-8ccf-786b5c5e624f.png"/></p>
+
+❯ Dimmed color of indent guides from `nord3` to `nord2` to be more unobstructive and differ from syntax elements like comments. This also matches the support for the [`indent-guide-improved`](https://atom.io/packages/indent-guide-improved) package implemented in [arcticicestudio/nord-atom-ui #64](https://github.com/arcticicestudio/nord-atom-ui/issues/64). (@smokebacon, #43, ffac4695)
+
+<p align="center"><strong>Before</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24577138/9b9addf6-16c8-11e7-9f9e-b044bf6e89b4.png"/><br><strong>After</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24577141/a6c329fe-16c8-11e7-810f-ab267d8a0c96.png"/></p>
+
+<p align="center"><strong><a href="https://github.com/arcticicestudio/nord-atom-ui/issues/64">Nord Atom UI #64</a> preview</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24577073/8a3486da-16c7-11e7-83a7-40cceaa7c87c.gif"/></p>
+
+## Bug Fixes
+### Documentation
+❯ Fixed a typo in the project description. This is a sub-task of [arcticicestudio/nord #20](https://github.com/arcticicestudio/nord/issues/20). (@arcticicestudio, #42, b67f8b62)
+  > **A** arctic ... -> **An** arctic ...
+
+
 # 0.6.0
 *2017-01-24*
 
@@ -95,3 +142,5 @@ A complete list of all implemented languages can be found in the milestone backl
   - [`language-yaml`](https://atom.io/packages/language-yaml) (@arcticicestudio, #15, 883ab296a249e6b9b93659724b5d2f2a37768854)
 
 <p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-top.png"/></p>
+
+[milestone-package-support-backlog]: https://github.com/arcticicestudio/nord-atom-syntax/issues/1

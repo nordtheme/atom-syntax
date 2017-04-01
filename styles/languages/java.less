@@ -5,7 +5,7 @@ project    nord-atom-syntax                                    +
 repository https://github.com/arcticicestudio/nord-atom-syntax +
 author     Arctic Ice Studio                                   +
 email      development@arcticicestudio.com                     +
-copyright  Copyright (C) 2016                                  +
+copyright  Copyright (C) 2017                                  +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Supports Java, Scala and Java Properties.
@@ -30,8 +30,20 @@ Scala
   + Java +
   +------+*/
 .syntax--source.syntax--java {
-  .syntax--keyword.syntax--operator.syntax--instanceof {
-    color: @syntax-color-keyword;
+  .syntax--comment.syntax--block.syntax--javadoc {
+    .syntax--variable.syntax--parameter {
+      color: @syntax-color-function;
+    }
+  }
+
+  .syntax--keyword {
+    &.syntax--operator.syntax--instanceof {
+      color: @syntax-color-keyword;
+    }
+
+    &.syntax--other.syntax--documentation.syntax--javadoc {
+      color: @syntax-color-java-javadoc-tag;
+    }
   }
 
   .syntax--punctuation.syntax--bracket.syntax--angle {
@@ -39,8 +51,11 @@ Scala
   }
 
   .syntax--storage {
-    &.syntax--modifier.syntax--import {
-      color: @syntax-color-import;
+    &.syntax--modifier {
+      &.syntax--import,
+      &.syntax--package {
+        color: @syntax-color-import;
+      }
     }
 
     &.syntax--type {

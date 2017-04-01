@@ -5,7 +5,7 @@ project    nord-atom-syntax                                    +
 repository https://github.com/arcticicestudio/nord-atom-syntax +
 author     Arctic Ice Studio                                   +
 email      development@arcticicestudio.com                     +
-copyright  Copyright (C) 2016                                  +
+copyright  Copyright (C) 2017                                  +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 [Language Packages]
@@ -16,6 +16,10 @@ Microsoft .NET Framework
   (https://www.microsoft.com/net)
 */
 .syntax--source.syntax--cs {
+  .syntax--entity.syntax--name.syntax--interface.syntax--class {
+    font-weight: bold;
+  }
+
   .syntax--meta {
     &.syntax--method.syntax--annotation {
       color: @syntax-color-annotation;
@@ -23,6 +27,21 @@ Microsoft .NET Framework
 
     &.syntax--namespace.syntax--body {
       color: @syntax-color-class;
+    }
+
+    &.syntax--directive.syntax--preprocessor {
+      color: @syntax-color-preprocessor;
+    }
+
+    .syntax--generic.syntax--method.syntax--identifier {
+      color: @syntax-color-punctuation;
+    }
+  }
+
+  .syntax--punctuation.syntax--section.syntax--class {
+    &.syntax--begin,
+    &.syntax--end {
+      color: @syntax-color-punctuation;
     }
   }
 }

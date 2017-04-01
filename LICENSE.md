@@ -1,4 +1,4 @@
-Copyright (c) 2016 Arctic Ice Studio <development@arcticicestudio.com>
+Copyright (c) 2017 Arctic Ice Studio <development@arcticicestudio.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

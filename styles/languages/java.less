@@ -30,8 +30,20 @@ Scala
   + Java +
   +------+*/
 .syntax--source.syntax--java {
-  .syntax--keyword.syntax--operator.syntax--instanceof {
-    color: @syntax-color-keyword;
+  .syntax--comment.syntax--block.syntax--javadoc {
+    .syntax--variable.syntax--parameter {
+      color: @syntax-color-function;
+    }
+  }
+
+  .syntax--keyword {
+    &.syntax--operator.syntax--instanceof {
+      color: @syntax-color-keyword;
+    }
+
+    &.syntax--other.syntax--documentation.syntax--javadoc {
+      color: @syntax-color-java-javadoc-tag;
+    }
   }
 
   .syntax--punctuation.syntax--bracket.syntax--angle {

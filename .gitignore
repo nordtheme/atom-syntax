@@ -3,3 +3,10 @@
 # +---------+
 node_modules
 npm-debug.log
+.npm/
+*.log
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock

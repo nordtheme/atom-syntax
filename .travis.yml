@@ -35,9 +35,9 @@ notifications:
     on_success: never
     on_failure: change
 before_script:
-  - npm install -g
-script:
   - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
   - chmod u+x build-package.sh
+  - npm install -g gulp
+script:
   - gulp --harmony lint
   - ./build-package.sh

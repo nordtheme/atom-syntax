@@ -21,7 +21,7 @@ dependencies:
   override:
     - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
     - chmod u+x build-package.sh
-    - npm install -g
+    - npm install -g gulp
 test:
   override:
     - gulp --harmony lint

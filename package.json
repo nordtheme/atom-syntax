@@ -24,5 +24,20 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.13.0 <2.0.0"
+  },
+  "configSchema": {
+    "accessibility": {
+      "type": "object",
+      "properties": {
+        "commentContrast": {
+          "title": "Custom Comment Contrast",
+          "description": "Increases the contrast for comments by percentage.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20,
+          "default": 0
+        }
+      }
+    }
   }
 }

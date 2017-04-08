@@ -9,7 +9,9 @@
 #
 # [References]
 # Circle CI
-#   (https://circleci.com/docs)
+#   https://circleci.com/docs
+# Atom CI
+#   https://github.com/atom/ci
 machine:
   environment:
     ATOM_LINT_WITH_BUNDLED_NODE: "true"
@@ -18,6 +20,8 @@ dependencies:
   override:
     - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
     - chmod u+x build-package.sh
+    - npm install --global
 test:
   override:
+    - gulp lint
     - ./build-package.sh

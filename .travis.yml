@@ -12,10 +12,7 @@
 #   https://docs.travis-ci.com
 # Atom CI
 #   https://github.com/atom/ci
-language: node_js
-node_js:
-  - "6"
-  - "4"
+language: generic
 env:
   global:
     - APM_TEST_PACKAGES=""
@@ -26,7 +23,6 @@ env:
 os:
   - linux
   - osx
-cache: yarn
 addons:
   apt:
     packages:
@@ -39,8 +35,7 @@ notifications:
     on_success: never
     on_failure: change
 before_script:
-  - yarn global add gulp
-  - yarn install
+  - sudo npm install -g
 script:
   - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
   - chmod u+x build-package.sh

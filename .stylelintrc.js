@@ -21,6 +21,7 @@ module.exports = {
     "comment-empty-line-before": null,
     "selector-type-no-unknown": [true, {
       "ignoreTypes": ["/^atom-/"]
-    }]
+    }],
+    "selector-pseudo-element-colon-notation": "single"
   }
 }

@@ -4,6 +4,13 @@
 
 ---
 
+# 0.8.0
+*2017-04-12*
+## Features
+❯ Implemented optimized styles for [Laravel Blade](https://laravel.com/docs/blade). (@whereisjefe, #44, 861e392d)
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/24770330/db497b3e-1b09-11e7-958b-6f24641207e9.png"/></p>
+
 # 0.7.0
 *2017-04-01*
 ## Features

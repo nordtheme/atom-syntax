@@ -14,6 +14,8 @@ copyright  Copyright (C) 2017                                  +
 [References]
 PHP
   (https://secure.php.net)
+Laravel
+  https://laravel.com/docs/blade
 */
 .syntax--source.syntax--php {
   .syntax--meta {
@@ -36,5 +38,19 @@ PHP
 
   .syntax--support.syntax--other.syntax--namespace.syntax--use {
     color: @syntax-color-class;
+  }
+}
+
+.syntax--text.syntax--html.syntax--php.syntax--blade {
+  .syntax--keyword {
+    color: @syntax-color-annotation;
+
+    &.syntax--operator {
+      color: @syntax-color-operator;
+    }
+  }
+
+  .syntax--support.syntax--function.syntax--construct {
+    color: @syntax-color-tag-template;
   }
 }

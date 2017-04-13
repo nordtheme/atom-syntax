@@ -15,6 +15,8 @@
 language: generic
 dist: trusty
 sudo: false
+node_js:
+  - "6.9.4"
 env:
   global:
     - APM_TEST_PACKAGES=""
@@ -22,6 +24,10 @@ env:
   matrix:
     - ATOM_CHANNEL=stable
     - ATOM_CHANNEL=beta
+matrix:
+  include:
+    - os: linux
+      env: LINUX_NVM_NODE_VERSION=6.9.4
 os:
   - linux
   - osx
@@ -38,6 +44,9 @@ notifications:
     on_failure: change
 before_install:
   - rm -rf ./node_modules
+install:
+  - nvm install $LINUX_NVM_NODE_VERSION
+  - nvm use --delete-prefix $LINUX_NVM_NODE_VERSION
 before_script:
   - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
   - chmod u+x build-package.sh

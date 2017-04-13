@@ -13,6 +13,7 @@
 # Atom CI
 #   https://github.com/atom/ci
 language: generic
+dist: trusty
 sudo: false
 env:
   global:

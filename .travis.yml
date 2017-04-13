@@ -55,6 +55,6 @@ before_script:
   - npm install -g gulp-cli
   - npm install gulp
   - npm install
-script:
   - gulp --harmony lint
+script:
   - ./build-package.sh

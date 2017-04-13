@@ -13,6 +13,7 @@
 # Atom CI
 #   https://github.com/atom/ci
 language: generic
+sudo: false
 env:
   global:
     - APM_TEST_PACKAGES=""

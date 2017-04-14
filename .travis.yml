@@ -44,6 +44,7 @@ before_install:
 install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
       nvm install $LINUX_NVM_NODE_VERSION;
+      nvm use $LINUX_NVM_NODE_VERSION;
     fi
 before_script:
   - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
@@ -51,7 +52,6 @@ before_script:
   - npm install -g gulp-cli
   - npm install gulp
   - npm install
-  - nvm use $LINUX_NVM_NODE_VERSION;
   - gulp --harmony lint
   - nvm deactivate
 script:

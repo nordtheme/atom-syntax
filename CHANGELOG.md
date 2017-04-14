@@ -4,6 +4,16 @@
 
 ---
 
+# 0.9.1
+*2017-04-14*
+## Improvements
+### Theme Settings
+❯ Removed a unnecessary IO write event when when deactivating the package. Before all theme settings have been written out to the store file `theme-settings-store.less`. The `deactivation()` method has been removed since there is currently no need to handle a package deactivation event. (@arcticicestudio, #49, 892e6735)
+
+## Bug Fixes
+### Theme Settings
+❯ Fixed a "Undefined variable" exception when deactivating the package. This was caused by the wrongly named `@theme-setting-custom-comment-contrast` variable which must be named `@theme-setting-accessibility-custom-comment-contrast`. (@arcticicestudio, #48, c5af4e3e)
+
 # 0.9.0
 *2017-04-14*
 ## Features

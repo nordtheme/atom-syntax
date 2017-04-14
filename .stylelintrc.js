@@ -1,6 +1,6 @@
 /*
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Language Go                                         +
+title      stylelint Configuration                             +
 project    nord-atom-syntax                                    +
 repository https://github.com/arcticicestudio/nord-atom-syntax +
 author     Arctic Ice Studio                                   +
@@ -8,19 +8,20 @@ email      development@arcticicestudio.com                     +
 copyright  Copyright (C) 2017                                  +
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-[Language Packages]
-  > language-go (https://atom.io/packages/language-go)
-
 [References]
-Go
-  (https://golang.org)
+stylelint
+  https://stylelint.io
+  https://stylelint.io/user-guide/rules
+  https://github.com/stylelint/stylelint-config-standard
 */
-.syntax--source.syntax--go {
-  .syntax--entity.syntax--name.syntax--package {
-    color: @syntax-color-import;
-  }
-
-  .syntax--storage.syntax--type.syntax--string {
-    color: @syntax-color-class;
+module.exports = {
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-hex-case": "upper",
+    "comment-empty-line-before": null,
+    "selector-type-no-unknown": [true, {
+      "ignoreTypes": ["/^atom-/"]
+    }],
+    "selector-pseudo-element-colon-notation": "single"
   }
 }

@@ -8,11 +8,51 @@
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 #
 # [References]
-# Travis CI Documentation
-#   (https://docs.travis-ci.com)
-language: objective-c
+# Travis CI
+#   https://docs.travis-ci.com
+# Atom CI
+#   https://github.com/atom/ci
+language: generic
+dist: trusty
+sudo: false
+node_js:
+  - "6.9.5"
+env:
+  global:
+    - APM_TEST_PACKAGES=""
+    - ATOM_LINT_WITH_BUNDLED_NODE="true"
+    - LINUX_NVM_NODE_VERSION=6.9.5
+  matrix:
+    - ATOM_CHANNEL=stable
+    - ATOM_CHANNEL=beta
+os:
+  - linux
+  - osx
+addons:
+  apt:
+    packages:
+      - build-essential
+      - git
+      - libgnome-keyring-dev
+      - fakeroot
 notifications:
   email:
     on_success: never
     on_failure: change
-script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
+before_install:
+  - rm -rf ./node_modules
+install:
+  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
+      nvm install $LINUX_NVM_NODE_VERSION;
+      nvm use $LINUX_NVM_NODE_VERSION;
+    fi
+before_script:
+  - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh
+  - chmod u+x build-package.sh
+  - npm install -g gulp-cli
+  - npm install gulp
+  - npm install
+  - gulp --harmony lint
+  - nvm deactivate
+script:
+  - ./build-package.sh

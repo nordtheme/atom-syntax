@@ -1,8 +1,21 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-syntax/develop/assets/nord-atom-syntax-banner.svg"/></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-blue.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/dm/nord-atom-syntax.svg"/></a></p>
+<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/dm/nord-atom-syntax.svg"/></a></p>
 
 ---
+
+# 0.9.0
+*2017-04-14*
+## Features
+### Theme Settings
+❯ Implemented a *Accessibility* theme setting to increase the contrast for comments by percentage.  
+The default value is `0` which uses the default Nord color assignment while the maximum value is `20`. (@ascarter, #46 PR #47, 935c2ae9)
+
+<p align="center"><strong>Default Settings</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24830105/80a66cb0-1c7f-11e7-8daa-d6db62b87150.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/24879698/fc288440-1e37-11e7-933d-f2467025417d.png"/></p>
+
+<p align="center"><strong>Increased comment contrast value of <code>15</code> (%)</strong><br><img src="https://cloud.githubusercontent.com/assets/7836623/24830273/c9584dae-1c82-11e7-8868-9658993e7173.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/24830274/cfb389ca-1c82-11e7-8b3a-d63bfeea4a48.png"/></p>
+
+<p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/25037295/a8a4379c-20f8-11e7-8119-d8517cb6b76d.gif"/></p>
 
 # 0.8.0
 *2017-04-12*

@@ -1,7 +1,7 @@
 {
   "name": "nord-atom-syntax",
   "theme": "syntax",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "An arctic, north-bluish clean and elegant Atom syntax theme.",
   "author": {
     "name": "Arctic Ice Studio",
@@ -12,6 +12,7 @@
   "bugs": {
     "url": "https://github.com/arcticicestudio/nord-atom-syntax/issues"
   },
+  "main": "./lib/main",
   "keywords": [
     "arctic",
     "north",
@@ -24,5 +25,28 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.13.0 <2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "3.15.0",
+    "gulp": "3.9.1",
+    "gulp-eslint": "3.0.1",
+    "gulp-help": "1.6.1",
+    "gulp-stylelint": "^3.9.0",
+    "stylelint-config-standard": "^16.0.0"
+  },
+  "configSchema": {
+    "accessibility": {
+      "type": "object",
+      "properties": {
+        "commentContrast": {
+          "title": "Custom Comment Contrast",
+          "description": "Increases the contrast for comments by percentage.",
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 20,
+          "default": 0
+        }
+      }
+    }
   }
 }

@@ -16,7 +16,7 @@ describe("Nord Atom Syntax accessibility custom comment contrast theme settings"
   beforeEach(() => {
     this.workspace = atom.views.getView(atom.workspace);
     jasmine.attachToDOM(this.workspace);
-    
+
     waitsForPromise("Theme Activation", () => {
       return atom.packages.activatePackage("nord-atom-syntax");
     });

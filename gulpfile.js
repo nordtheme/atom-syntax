@@ -25,7 +25,7 @@ const gulpStylelint = require("gulp-stylelint");
 /*+---------------+
   + Configuration +
   +---------------+*/
-const javaScriptSources = ["lib/**/*.js"];
+const javaScriptSources = ["lib/**/*.js", "spec/**/*.js"];
 const lesscssSources = ["styles/**/*.less"];
 
 /*+-------+

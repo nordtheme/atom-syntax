@@ -45,8 +45,13 @@ module.exports = {
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "no-duplicate-imports": "error",
+    "no-floating-decimal": "error",
     "no-tabs": "error",
+    "no-trailing-spaces": ["error", {
+      "skipBlankLines": false
+    }],
     "no-var": "error",
+    "no-whitespace-before-property": "error",
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
     // Error Prevention

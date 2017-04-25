@@ -1,6 +1,6 @@
 <p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-syntax/develop/assets/nord-atom-syntax-banner.svg"/></p>
 
-<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord-atom-syntax"><img src="https://img.shields.io/travis/arcticicestudio/nord-atom-syntax/develop.svg"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-atom-syntax"><img src="https://circleci.com/gh/arcticicestudio/nord-atom-syntax.svg?style=shield&circle-token=63fc45d7300d4fc129c165e1aa2d1291474e5e1c"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/dm/nord-atom-syntax.svg"/></a></p>
+<p align="center"><img src="https://cdn.travis-ci.org/images/favicon-c566132d45ab1a9bcae64d8d90e4378a.svg" width=24 height=24/> <a href="https://travis-ci.org/arcticicestudio/nord-atom-syntax"><img src="https://img.shields.io/travis/arcticicestudio/nord-atom-syntax/develop.svg?style=flat-square"/></a> <img src="https://circleci.com/favicon.ico" width=24 height=24/> <a href="https://circleci.com/gh/arcticicestudio/nord-atom-syntax"><img src="https://img.shields.io/circleci/project/github/arcticicestudio/nord-atom-syntax/develop.svg?style=flat-square"/></a> <img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg?style=flat-square"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg?style=flat-square"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg?style=flat-square"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg?style=flat-square"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/dm/nord-atom-syntax.svg?style=flat-square"/></a></p>
 
 <p align="center">An arctic, north-bluish clean and elegant Atom syntax theme.</p>
 
@@ -49,7 +49,7 @@ Detailed descriptions for supported languages can be found in the [project wiki]
 ![][scrot-lang-xml]
 
 ## Development
-[![](https://img.shields.io/badge/Changelog-0.9.1-81A1C1.svg)](https://github.com/arcticicestudio/nord-atom-syntax/blob/v0.9.1/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg)](https://github.com/arcticicestudio/arcver)
+[![](https://img.shields.io/badge/Changelog-0.9.1-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/nord-atom-syntax/blob/v0.9.1/CHANGELOG.md) [![](https://img.shields.io/badge/Workflow-gitflow--branching--model-81A1C1.svg?style=flat-square)](http://nvie.com/posts/a-successful-git-branching-model) [![](https://img.shields.io/badge/Versioning-ArcVer_0.8.0-81A1C1.svg?style=flat-square)](https://github.com/arcticicestudio/arcver)
 
 ### Contribution
 Please report issues/bugs, feature requests and suggestions for improvements to the [issue tracker](https://github.com/arcticicestudio/nord-atom-syntax/issues).
@@ -58,7 +58,7 @@ Please report issues/bugs, feature requests and suggestions for improvements to 
 
 <p align="center"> <img src="http://arcticicestudio.com/favicon.ico" width=16 height=16/> Copyright &copy; 2017 Arctic Ice Studio</p>
 
-<p align="center"><a href="https://github.com/arcticicestudio/nord-atom-syntax/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-5E81AC.svg"/></a></p>
+<p align="center"><a href="https://github.com/arcticicestudio/nord-atom-syntax/develop/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-5E81AC.svg?style=flat-square"/></a></p>
 
 [scrot-lang-c]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-c.png
 [scrot-lang-java]: https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-lang-java.png

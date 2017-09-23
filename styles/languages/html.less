@@ -13,19 +13,19 @@ copyright  Copyright (C) 2017                                  +
 
 [References]
 W3C
-  (https://www.w3.org/html/)
+  https://www.w3.org/html
 */
-.syntax--html {
+.syntax--text.syntax--html {
+  &.syntax--basic {
+    .syntax--constant.syntax--other.syntax--inline-data {
+      color: @syntax-text-color;
+      font-style: italic;
+    }
+  }
+
   .syntax--meta {
     &.syntax--between-tag-pair {
       color: @syntax-color-tag;
     }
-  }
-}
-
-.syntax--text.syntax--html.syntax--basic {
-  .syntax--constant.syntax--other.syntax--inline-data {
-    color: @syntax-text-color;
-    font-style: italic;
   }
 }

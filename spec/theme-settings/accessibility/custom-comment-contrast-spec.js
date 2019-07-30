@@ -1,22 +1,22 @@
+/*
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord Atom Syntax
+ * Repository: https://github.com/arcticicestudio/nord-atom-syntax
+ * License:    MIT
+ */
+
 "use babel";
 "use strict";
-/*
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Accessibility: Custom Comment Contrast               +
-project    nord-atom-syntax                                     +
-repository https://github.com/arcticicestudio/nord-atom-syntax  +
-author     Arctic Ice Studio                                    +
-email      development@arcticicestudio.com                      +
-copyright  Copyright (C) 2017                                   +
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-*/
+
 import { DEFAULT_COMMENT_CONTRAST, MINIMUM_COMMENT_CONTRAST, MAXIMUM_COMMENT_CONTRAST } from "../../../lib/constants";
 
 describe("Nord Atom Syntax accessibility custom comment contrast theme settings", () => {
   beforeEach(() => {
     this.workspace = atom.views.getView(atom.workspace);
     jasmine.attachToDOM(this.workspace);
-    
+
     waitsForPromise("Theme Activation", () => {
       return atom.packages.activatePackage("nord-atom-syntax");
     });

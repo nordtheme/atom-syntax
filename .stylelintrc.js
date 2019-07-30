@@ -1,19 +1,16 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      stylelint Configuration                             +
-project    nord-atom-syntax                                    +
-repository https://github.com/arcticicestudio/nord-atom-syntax +
-author     Arctic Ice Studio                                   +
-email      development@arcticicestudio.com                     +
-copyright  Copyright (C) 2017                                  +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord Atom Syntax
+ * Repository: https://github.com/arcticicestudio/nord-atom-syntax
+ * License:    MIT
+ * References:
+ *   https://stylelint.io
+ *   https://stylelint.io/user-guide/rules
+ *   https://github.com/stylelint/stylelint-config-standard
+ */
 
-[References]
-stylelint
-  https://stylelint.io
-  https://stylelint.io/user-guide/rules
-  https://github.com/stylelint/stylelint-config-standard
-*/
 module.exports = {
   "extends": "stylelint-config-standard",
   "rules": {

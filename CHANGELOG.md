@@ -1,8 +1,81 @@
-<p align="center"><img src="https://cdn.rawgit.com/arcticicestudio/nord-atom-syntax/develop/assets/nord-atom-syntax-banner.svg"/></p>
+<p align="center"><a href="https://www.nordtheme.com/ports/atom-syntax" target="_blank"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/ports/atom-syntax/repository-hero.svg?sanitize=true"/></a></p>
 
-<p align="center"><img src="https://assets-cdn.github.com/favicon.ico" width=24 height=24/> <a href="https://github.com/arcticicestudio/nord-atom-syntax/releases/latest"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg"/></a> <a href="https://github.com/arcticicestudio/nord/releases/tag/v0.2.0"><img src="https://img.shields.io/badge/Nord-v0.2.0-88C0D0.svg"/></a> <img src="https://atom.io/favicon.ico" width=24 height=24/> <a href="https://github.com/atom/atom/releases/tag/v1.13.0"><img src="https://img.shields.io/badge/Atom->=v1.13.0-green.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg"/></a> <a href="https://atom.io/themes/nord-atom-syntax"><img src="https://img.shields.io/apm/dm/nord-atom-syntax.svg"/></a></p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-syntax" target="_blank"><img src="https://img.shields.io/github/release/arcticicestudio/nord-atom-syntax.svg?style=flat-square&label=Docs&colorA=4c566a&colorB=88c0d0&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI%2BCiAgICA8cGF0aCBmaWxsPSIjZDhkZWU5IiBkPSJNMTMuNzQ2IDIuODEzYS42Ny42NyAwIDAgMC0uNTU5LS4xMzNMOCAzLjg0OGwtNS4xODgtMS4xOGEuNjY5LjY2OSAwIDAgMC0uNTcuMTMzLjY3Ny42NzcgMCAwIDAtLjI0Mi41MzF2OC4xMzNjLS4wMDguMzIuMjEuNTk4LjUyLjY2OGw1LjMzMiAxLjE5OWguMjk2bDUuMzMyLTEuMmEuNjY4LjY2OCAwIDAgMCAuNTItLjY2N1YzLjMzMmEuNjU5LjY1OSAwIDAgMC0uMjU0LS41MnpNMy4zMzIgNC4xNjhsNCAuODk4djYuNzY2bC00LS44OTh6bTkuMzM2IDYuNzY2bC00IC44OThWNS4wNjZsNC0uODk4em0wIDAiLz4KPC9zdmc%2BCg%3D%3D"/></a></p>
 
----
+<p align="center"><a href="https://atom.io/themes/nord-atom-syntax" target="_blank"><img src="https://img.shields.io/apm/v/nord-atom-syntax.svg?style=flat-square&label=Package%20Registry&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a> <a href="https://atom.io/themes/nord-atom-syntax" target="_blank"><img src="https://img.shields.io/apm/dm/nord-atom-syntax.svg?style=flat-square&label=Downloads&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
+
+<p align="center"><a href="https://blog.atom.io/2017/01/10/atom-1-13.html" target="_blank"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=Compatibility&message=%3E%3D1.13.0&logo=atom&logoColor=eceff4&colorA=4c566a&colorB=88c0d0"/></a></p>
+
+<p align="center">Changelog for <a href="https://www.nordtheme.com/ports/atom-syntax">Nord Atom Syntax</a> — An arctic, north-bluish clean and elegant <a href="https://atom.io" target="_blank">Atom</a> syntax theme.</p>
+
+<!-- lint disable no-duplicate-headings -->
+
+# 0.10.0
+
+![Release Date: 2019-07-30](https://img.shields.io/static/v1.svg?style=flat-square&label=Release%20Date&message=2019-07-30&colorA=4c566a&colorB=88c0d0) [![Project Board](https://img.shields.io/static/v1.svg?style=flat-square&label=Project%20Board&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-atom-syntax/projects/13) [![Milestone](https://img.shields.io/static/v1.svg?style=flat-square&label=Milestone&message=0.10.0&logo=github&logoColor=eceff4&colorA=4c566a&colorB=88c0d0)](https://github.com/arcticicestudio/nord-atom-syntax/milestone/12)
+
+## Features
+
+**Nord Docs Transition** — #63 ⇄ #64 (⊶ b9675979)
+↠ Transferred all documentations, assets and from „Nord Atom Syntax“ to [Nord Docs][nord].
+Please see the [corresponding issue in the Nord Docs repository][nord-docs#168] to get an overview of what has changed for Nord Atom Syntax and what has been done to migrate to Nord Docs.
+
+<p align="center">Landing Page</p>
+<p align="center"><a href="https://www.nordtheme.com/ports/atom-syntax" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/62131873-52032d80-b2dc-11e9-8893-ef9dd8bfdd5d.png" alt="Preview: Nord Atom Syntax Port Project Landing Page"/></a></p>
+
+<p align="center">Docs Page</p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-syntax" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/62128997-e61dc680-b2d5-11e9-99f3-004b8b1243b5.png" alt="Preview: Nord Atom Syntax Docs Page"/></a></p>
+
+<p align="center">Installation & Activation Guide</p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-syntax/installation" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/62128860-a1922b00-b2d5-11e9-8fab-536361344b7e.png" alt="Preview: Nord Atom Syntax Installation & Activation Guide Page"/></a></p>
+
+<p align="center">Package Development</p>
+<p align="center"><a href="https://www.nordtheme.com/docs/ports/atom-syntax/development" target="_blank"><img src="https://user-images.githubusercontent.com/7836623/62128859-a1922b00-b2d5-11e9-9840-890abf8c2d97.png" alt="Preview: Nord Atom Syntax Package Development Guide Page"/></a></p>
+
+## Improvements
+
+**Empty HTML tag highlighting** — #52/#54 ⇄ #53/#56 (⊶ 7e2764e7) by [@amayer5125][gh-user-amayer5125]
+↠ Fixed the bracket character (`<`) of the closing tag not being highlighted when the tags contains no text content or other elements.
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/30774563-cd89866e-a084-11e7-817c-1c2fa921a598.png"/></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/30774557-be6274d4-a084-11e7-91ad-bd38e6d7800a.png"/></p>
+
+**Comment Color Brightness** — #60 ⇄ #61 (⊶ 0d26b31d)
+↠ Implemented the frequently requested and long-time outstanding increase of the comment color (`nord3`) brightness by 10% from a lightness level of ~35% to ~45%.
+
+➜ **Please see [arcticicestudio/nord#94][nord#94] for all details about this design change decision**!
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/54902736-76886c80-4eda-11e9-86cd-dfc935aff5e3.png"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/54902735-76886c80-4eda-11e9-9aa0-41ded647bdb2.png"/></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/54902766-856f1f00-4eda-11e9-897a-9b0971586a0b.png"/></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/54902765-856f1f00-4eda-11e9-9d09-50c89faece43.png"/></p>
+
+## Bug Fixes
+
+**No highlighting for Julia multiline _docstrings_** — #45 (#23) (⊶ 710acce8)
+↠ Saved the highlighting for the [`language-julia`][pkg-language-julia] package that makes use of the GFM selector `.syntax--source.syntax--gfm` wrapped in a `.syntax--string.syntax--docstring` selector to highlight multiline _docstrings_. This resulted in the usage of the default GFM text color `nord4` instead of the string color `nord14`.
+
+**Plain Text highlighting in JSX** — #50 ⇄ #51 (⊶ 087b3203) by [@haveanicedavid][gh-user-haveanicedavid]
+↠ Fixed the color of plain text (body text) placed inside JSX tags.
+
+<p align="center">Before</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/27985204-5b5f7c30-63e7-11e7-9e50-b16915de2781.png"/></p>
+
+<p align="center">After</p>
+<p align="center"><img src="https://user-images.githubusercontent.com/7836623/27985206-6894cb12-63e7-11e7-857b-98f727a1df50.png"/></p>
+
+## Task
+
+### Documentation
+
+**Migration to MIT license** — #57 ⇄ #58 (⊶ 6481f12f)
+↠ Adapted to the MIT license migration of [Nord][]. Details can be found in the main task ticket [arcticicestudio/nord#55][nord#55].
 
 # 0.9.1
 *2017-04-14*
@@ -38,12 +111,12 @@ The default value is `0` which uses the default Nord color assignment while the 
 *2017-04-01*
 ## Features
 ### Languages
-❯ Implemented optimized [diff](https://en.wikipedia.org/wiki/Diff_utility)/[patch](https://en.wikipedia.org/wiki/Patch_(Unix)) styles for the [milestone backlog][milestone-package-support-backlog] community package <img src="https://avatars2.githubusercontent.com/u/529516" width=16 height=16/>  [`language-diff`](https://atom.io/packages/language-diff). (@arcticicestudio, #34, f05c8bf6)
+❯ Implemented optimized [diff](https://en.wikipedia.org/wiki/Diff_utility)/[patch](https://en.wikipedia.org/wiki/Patch_(Unix)) styles for the [milestone backlog][gh-1] community package <img src="https://avatars2.githubusercontent.com/u/529516" width=16 height=16/>  [`language-diff`](https://atom.io/packages/language-diff). (@arcticicestudio, #34, f05c8bf6)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/24577810/6be899c4-16d5-11e7-8487-ce26987fb43b.png"/></p>
 
 ❯ Implemented optimized
-[reStructuredText](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) styles for the [milestone backlog][milestone-package-support-backlog] community package <img src="https://avatars0.githubusercontent.com/u/1382556" width=16 height=16/> [`language-restructuredtext`](https://atom.io/packages/language-restructuredtext). (@adrian5, #37, 099eea88)
+[reStructuredText](http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html) styles for the [milestone backlog][gh-1] community package <img src="https://avatars0.githubusercontent.com/u/1382556" width=16 height=16/> [`language-restructuredtext`](https://atom.io/packages/language-restructuredtext). (@adrian5, #37, 099eea88)
 
 <p align="center"><img src="https://cloud.githubusercontent.com/assets/7836623/24577665/8b803448-16d2-11e7-96a0-abdd207aa08c.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/24577668/8e0bb71e-16d2-11e7-8a7d-4fd0c115f08c.png"/><br><img src="https://cloud.githubusercontent.com/assets/7836623/24577669/8fff0184-16d2-11e7-9198-118fb9e6febd.png"/></p>
 
@@ -173,4 +246,29 @@ A complete list of all implemented languages can be found in the milestone backl
 
 <p align="center"><img src="https://raw.githubusercontent.com/arcticicestudio/nord-atom-syntax/develop/assets/scrot-top.png"/></p>
 
-[milestone-package-support-backlog]: https://github.com/arcticicestudio/nord-atom-syntax/issues/1
+
+<!--
++------------------+
++ Symbol Reference +
++------------------+
+↠ (U+21A0): Start of a log section description
+— (U+2014): Separator between a log section title and the metadata
+⇄ (U+21C4): Separator between a issue ID and pull request ID in a log metadata
+⊶ (U+22B6): Icon prefix for the short commit SHA checksum in a log metadata
+-->
+
+<!-- lint disable final-definition -->
+
+<!-- Base Links -->
+
+[gh-1]: https://github.com/arcticicestudio/nord-atom-syntax/issues/1
+[nord]: https://www.nordtheme.com
+[pkg-language-julia]: https://atom.io/packages/language-julia
+
+<!-- v0.10.0 -->
+
+[nord-docs#168]:https://github.com/arcticicestudio/nord-docs/issues/168
+[nord#55]:https://github.com/arcticicestudio/nord/issues/55
+[nord#94]:https://github.com/arcticicestudio/nord/issues/94
+[gh-user-haveanicedavid]: https://github.com/haveanicedavid
+[gh-user-amayer5125]: https://github.com/amayer5125

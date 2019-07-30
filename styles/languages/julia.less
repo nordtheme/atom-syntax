@@ -1,22 +1,23 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Language Julia                                      +
-project    nord-atom-syntax                                    +
-repository https://github.com/arcticicestudio/nord-atom-syntax +
-author     Arctic Ice Studio                                   +
-email      development@arcticicestudio.com                     +
-copyright  Copyright (C) 2017                                  +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord Atom Syntax
+ * Repository: https://github.com/arcticicestudio/nord-atom-syntax
+ * License:    MIT
+ * References:
+ *   https://atom.io/packages/language-julia
+ *   http://julialang.org
+ */
 
-[Language Packages]
-  > language-julia (https://atom.io/packages/language-julia)
-
-[References]
-Julia Language
-  (http://julialang.org)
-*/
 .syntax--source.syntax--julia {
   .syntax--support.syntax--function.syntax--macro {
     color: @syntax-color-annotation;
+  }
+
+  .syntax--string.syntax--docstring {
+    .syntax--source.syntax--gfm {
+      color: @syntax-color-string;
+    }
   }
 }

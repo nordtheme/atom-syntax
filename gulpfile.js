@@ -1,20 +1,15 @@
-"use strict";
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Project Gulp File                                   +
-project    nord-atom-syntax                                    +
-repository https://github.com/arcticicestudio/nord-atom-syntax +
-author     Arctic Ice Studio                                   +
-email      development@arcticicestudio.com                     +
-copyright  Copyright (C) 2017                                  +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord Atom Syntax
+ * Repository: https://github.com/arcticicestudio/nord-atom-syntax
+ * License:    MIT
+ * References:
+ *   http://gulpjs.com
+ *   https://www.npmjs.com
+ */
 
-[References]
-Gulp
-  (http://gulpjs.com)
-npmjs
-  (https://www.npmjs.com)
-*/
 /*+---------+
   + Imports +
   +---------+*/
@@ -25,7 +20,7 @@ const gulpStylelint = require("gulp-stylelint");
 /*+---------------+
   + Configuration +
   +---------------+*/
-const javaScriptSources = ["lib/**/*.js"];
+const javaScriptSources = ["lib/**/*.js", "spec/**/*.js"];
 const lesscssSources = ["styles/**/*.less"];
 
 /*+-------+

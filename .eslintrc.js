@@ -1,21 +1,18 @@
 /*
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      ESLint Configuration                                 +
-project    nord-atom-syntax                                     +
-repository https://github.com/arcticicestudio/nord-atom-syntax  +
-author     Arctic Ice Studio                                    +
-email      development@arcticicestudio.com                      +
-copyright  Copyright (C) 2017                                   +
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Project:    Nord Atom Syntax
+ * Repository: https://github.com/arcticicestudio/nord-atom-syntax
+ * License:    MIT
+ * References:
+ *   http://eslint.org/docs/rules
+ *   http://eslint.org/docs/user-guide/configuring
+ *   http://eslint.org/docs/user-guide/configuring#using-configuration-files
+ *   http://eslint.org/docs/user-guide/configuring#specifying-environments
+ *   http://eslint.org/docs/user-guide/configuring.html#specifying-globals
+ */
 
-[References]
-ESLint
-  http://eslint.org/docs/rules
-  http://eslint.org/docs/user-guide/configuring
-  http://eslint.org/docs/user-guide/configuring#using-configuration-files
-  http://eslint.org/docs/user-guide/configuring#specifying-environments
-  http://eslint.org/docs/user-guide/configuring.html#specifying-globals
-*/
 module.exports = {
   "env": {
     "node": true,
@@ -45,8 +42,13 @@ module.exports = {
     "indent": ["error", 2],
     "linebreak-style": ["error", "unix"],
     "no-duplicate-imports": "error",
+    "no-floating-decimal": "error",
     "no-tabs": "error",
+    "no-trailing-spaces": ["error", {
+      "skipBlankLines": false
+    }],
     "no-var": "error",
+    "no-whitespace-before-property": "error",
     "quotes": ["error", "double"],
     "semi": ["error", "always"],
     // Error Prevention

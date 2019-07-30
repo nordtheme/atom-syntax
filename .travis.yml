@@ -1,17 +1,13 @@
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      Travis CI Build Configuration                       +
-# project    nord-atom-syntax                                    +
-# repository https://github.com/arcticicestudio/nord-atom-syntax +
-# author     Arctic Ice Studio                                   +
-# email      development@arcticicestudio.com                     +
-# copyright  Copyright (C) 2017                                  +
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-#
-# [References]
-# Travis CI
+# Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+
+# Project:    Nord Atom Syntax
+# Repository: https://github.com/arcticicestudio/nord-atom-syntax
+# License:    MIT
+# References:
 #   https://docs.travis-ci.com
-# Atom CI
 #   https://github.com/atom/ci
+
 language: generic
 dist: trusty
 sudo: false

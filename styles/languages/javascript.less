@@ -1,37 +1,38 @@
 /*
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-title      Language JavaScript                                 +
-project    nord-atom-syntax                                    +
-repository https://github.com/arcticicestudio/nord-atom-syntax +
-author     Arctic Ice Studio                                   +
-email      development@arcticicestudio.com                     +
-copyright  Copyright (C) 2017                                  +
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+ * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+ *
+ * Support for ES5/ES6, ES Next, Atom's Etch and Facebook's React, Flow and GraphQL syntax.
+ *
+ * Project:    Nord Atom Syntax
+ * Repository: https://github.com/arcticicestudio/nord-atom-syntax
+ * License:    MIT
+ * References:
+ *   https://atom.io/packages/language-babel
+ *   https://atom.io/packages/language-javascript
+ *   https://babeljs.io
+ *   https://github.com/esnext/esnext
+ *   https://github.com/atom/etch
+ *   https://facebook.github.io/react
+ *   https://flowtype.org
+ *   http://graphql.org
+ */
 
-Support for
-  - ES15/16
-  - ESNext
-  - Atom's Etch
-  - Facebook's React, Flow and GraphQL
-
-[Language Packages]
-  > language-babel (https://atom.io/packages/language-babel)
-  > language-javascript (https://atom.io/packages/language-javascript)
-
-[References]
-Babel
-  (https://babeljs.io)
-ESNext
-  (https://github.com/esnext/esnext)
-Atom
-  (https://github.com/atom/etch)
-Facebook
-  (https://facebook.github.io/react)
-  (https://flowtype.org)
-  (http://graphql.org)
-*/
 .syntax--source.syntax--js.syntax--jsx {
   .syntax--variable.syntax--other.syntax--class {
     color: @syntax-color-class;
+  }
+
+  .syntax--punctuation.syntax--section.syntax--class {
+    &.syntax--begin,
+    &.syntax--end {
+      color: @syntax-color-punctuation;
+    }
+  }
+
+  .syntax--meta.syntax--class.syntax--body {
+    .syntax--meta.syntax--tag {
+      color: @syntax-text-color;
+    }
   }
 }

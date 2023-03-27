@@ -1,12 +1,10 @@
-# Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (C) 2016-present Sven Greb <development@svengreb.de>
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-# Project:    Nord Atom Syntax
-# Repository: https://github.com/arcticicestudio/nord-atom-syntax
-# License:    MIT
+# Travis CI configuration.
 # References:
-#   https://docs.travis-ci.com
-#   https://github.com/atom/ci
+#   1. https://docs.travis-ci.com/user/languages/javascript-with-nodejs
+#   2. https://github.com/atom/ci
 
 language: generic
 dist: trusty
@@ -39,8 +37,8 @@ before_install:
   - rm -rf ./node_modules
 install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then
-      nvm install $LINUX_NVM_NODE_VERSION;
-      nvm use $LINUX_NVM_NODE_VERSION;
+    nvm install $LINUX_NVM_NODE_VERSION;
+    nvm use $LINUX_NVM_NODE_VERSION;
     fi
 before_script:
   - curl -s -O https://raw.githubusercontent.com/atom/ci/master/build-package.sh

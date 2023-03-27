@@ -1,10 +1,6 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom Syntax
- * Repository: https://github.com/arcticicestudio/nord-atom-syntax
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 atom-text-editor {
@@ -70,7 +66,7 @@ atom-text-editor {
     + Gutter +
     +--------+*/
   .gutter {
-    font-weight: 300;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
     background-color: @syntax-gutter-background-color;
     margin-right: 0;
@@ -121,7 +117,8 @@ atom-text-editor {
 
       &.cursor-line,
       &.cursor-line-no-selection {
-        color: @syntax-gutter-text-color-selected;
+        //color: @syntax-gutter-text-color-selected;
+        color: #fff;
         font-weight: 600;
       }
 

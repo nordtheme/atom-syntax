@@ -1,19 +1,15 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom Syntax
- * Repository: https://github.com/arcticicestudio/nord-atom-syntax
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
 atom-text-editor {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
 
-  /*+----------+
-    + Elements +
-    +----------+*/
+  /* +----------+
+     + Elements +
+     +----------+ */
   .bracket-matcher .region {
     border: 1px solid @syntax-bracket-matcher-color;
     box-sizing: border-box;
@@ -47,9 +43,9 @@ atom-text-editor {
     background-color: @syntax-wrap-guide-color;
   }
 
-  /*+------------------+
-    + find-and-replace +
-    +------------------+*/
+  /* +------------------+
+     + find-and-replace +
+     +------------------+ */
   .find-result .region.region.region,
   .current-result .region.region.region {
     background-color: @syntax-result-marker-color;
@@ -57,6 +53,7 @@ atom-text-editor {
   }
 
   .current-result .region.region.region {
+    /* stylelint-disable-next-line function-no-unknown */
     background-color: fadein(@syntax-result-marker-color, 8%);
     border: 2px solid @syntax-result-marker-color-selected;
     transition-duration: @syntax-transition-time;
@@ -66,11 +63,11 @@ atom-text-editor {
     border: 2px solid transparent;
   }
 
-  /*+--------+
-    + Gutter +
-    +--------+*/
+  /* +--------+
+     + Gutter +
+     +--------+ */
   .gutter {
-    font-weight: 300;
+    font-weight: 500;
     -webkit-font-smoothing: antialiased;
     background-color: @syntax-gutter-background-color;
     margin-right: 0;
@@ -121,7 +118,8 @@ atom-text-editor {
 
       &.cursor-line,
       &.cursor-line-no-selection {
-        color: @syntax-gutter-text-color-selected;
+        //color: @syntax-gutter-text-color-selected;
+        color: #fff;
         font-weight: 600;
       }
 
@@ -138,8 +136,8 @@ atom-text-editor {
   }
 
   .gutter .line-number.folded,
-  .gutter .line-number:after,
-  .fold-marker:after {
+  .gutter .line-number::after,
+  .fold-marker::after {
     color: @syntax-gutter-text-color-selected;
 
     .icon-right {

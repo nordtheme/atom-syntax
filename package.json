@@ -1,19 +1,26 @@
 {
   "name": "nord-atom-syntax",
-  "theme": "syntax",
   "version": "0.10.0",
-  "description": "An arctic, north-bluish clean and elegant Atom syntax theme.",
+  "description": "An arctic, north-bluish clean and elegant Atom syntax theme",
   "author": {
-    "name": "Arctic Ice Studio",
-    "email": "development@arcticicestudio.com",
-    "url": "https://www.arcticicestudio.com"
+    "name": "Sven Greb",
+    "email": "development@svengreb.de",
+    "url": "https://www.svengreb.de"
   },
   "homepage": "https://www.nordtheme.com/ports/atom-syntax",
-  "repository": "https://github.com/arcticicestudio/nord-atom-syntax",
-  "bugs": {
-    "url": "https://github.com/arcticicestudio/nord-atom-syntax/issues"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nordtheme/atom-syntax.git"
   },
+  "bugs": {
+    "url": "https://github.com/nordtheme/atom-syntax/issues"
+  },
+  "license": "MIT",
   "main": "./lib/main",
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0",
+    "npm": ">=7.7"
+  },
   "keywords": [
     "arctic",
     "north",
@@ -23,18 +30,7 @@
     "minimal",
     "syntax"
   ],
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.13.0 <2.0.0"
-  },
-  "devDependencies": {
-    "eslint": "3.15.0",
-    "gulp": "3.9.1",
-    "gulp-eslint": "3.0.1",
-    "gulp-help": "1.6.1",
-    "gulp-stylelint": "^3.9.0",
-    "stylelint-config-standard": "^16.0.0"
-  },
+  "theme": "syntax",
   "configSchema": {
     "accessibility": {
       "type": "object",
@@ -49,5 +45,38 @@
         }
       }
     }
+  },
+  "scripts": {
+    "format": "run-p format:*",
+    "format:js": "eslint --fix .",
+    "format:pretty": "prettier --ignore-unknown --no-editorconfig --write \"**\"",
+    "lint": "run-s lint:js lint:less lint:md lint:pretty",
+    "lint:ci": "run-s --continue-on-error lint:js lint:less lint:md lint:ci:pretty",
+    "lint:ci:pretty": "prettier --check --ignore-unknown --loglevel silent --no-editorconfig --no-error-on-unmatched-pattern \"**\"",
+    "lint:js": "eslint .",
+    "lint:less": "stylelint --formatter verbose *.less styles/",
+    "lint:md": "remark --no-stdout . .github/",
+    "lint:pretty": "prettier --check --ignore-unknown --no-editorconfig \"**\"",
+    "prepare:husky": "husky install",
+    "prepare": "run-s prepare:*"
+  },
+  "devDependencies": {
+    "@arcticicestudio/eslint-config-base": ">=0.11.0 <=1.0.0",
+    "@arcticicestudio/remark-preset-lint": ">=0.4.0 <1.0.0",
+    "eslint": "8.38.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-prettier": "4.2.1",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.1",
+    "npm-run-all": "4.1.5",
+    "postcss-less": "6.0.0",
+    "prettier": "2.8.7",
+    "prettier-plugin-sh": "0.12.8",
+    "remark-cli": "11.0.0",
+    "stylelint": "15.4.0",
+    "stylelint-config-standard": "32.0.0",
+    "stylelint-less": "1.0.6",
+    "stylelint-prettier": "3.0.0"
   }
 }

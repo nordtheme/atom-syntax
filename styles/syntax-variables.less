@@ -1,26 +1,19 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom Syntax
- * Repository: https://github.com/arcticicestudio/nord-atom-syntax
- * License:    MIT
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-/*+---------+
-  + Imports +
-  +---------+*/
-@import "nord";
-@import "colors";
+@import url("nord");
+@import url("colors");
 
-/*+------------+
-  + Animations +
-  +------------+*/
+/* +------------+
+   + Animations +
+   +------------+ */
 @syntax-transition-time: 400ms;
 
-/*+------+
-  + Base +
-  +------+*/
+/* +------+
+   + Base +
+   +------+ */
 @syntax-theme-name: nord-atom-syntax;
 
 @syntax-background-color: @nord0;
@@ -29,36 +22,37 @@
 @syntax-selection-flash-color: @nord8;
 @syntax-text-color: @nord4;
 
-/*+-----------------+
-  + Editor Elements +
-  +-----------------+*/
+/* +-----------------+
+   + Editor Elements +
+   +-----------------+ */
 @syntax-cursor-color: @syntax-text-color;
 @syntax-indent-guide-color: @nord2;
 @syntax-invisible-character-color: @nord3;
 @syntax-wrap-guide-color: @nord3;
 
-/*+-----+
-  + Git +
-  +-----+*/
+/* +-----+
+   + Git +
+   +-----+ */
 @syntax-color-added: @nord14;
 @syntax-color-modified: @nord13;
 @syntax-color-removed: @nord11;
 @syntax-color-renamed: @nord8;
 
-/*+--------+
-  + Gutter +
-  +--------+*/
+/* +--------+
+   + Gutter +
+   +--------+ */
 @syntax-gutter-background-color: @syntax-background-color;
 @syntax-gutter-background-color-selected: transparent;
 @syntax-gutter-icon-color-folded: @nord8;
 @syntax-gutter-text-color: @syntax-gutter-text-color-subtle;
 @syntax-gutter-text-color-selected: @nord6;
-@syntax-gutter-text-color-subtle: fade(@syntax-text-color, 40%);
+@syntax-gutter-text-color-subtle: @nord3;
 
-/*+-------------------+
-  + Language Entities +
-  +-------------------+*/
-/*+--- Base ---+*/
+/* +-------------------+
+   + Language Entities +
+   +-------------------+ */
+
+/* +--- Base ---+ */
 @syntax-color-annotation: @nord12;
 @syntax-color-attribute: @nord7;
 @syntax-color-attribute-id: @nord7;
@@ -92,7 +86,7 @@
 @syntax-deprecated: @nord13;
 @syntax-illegal: @nord11;
 
-/*+--- Specific ---+*/
+/* +--- Specific ---+ */
 @syntax-color-css-property: @nord7;
 @syntax-color-diff-separator: @nord9;
 @syntax-color-java-bracket-angle: @nord9;
@@ -106,20 +100,21 @@
 @syntax-color-markup-punctuation: @nord9;
 @syntax-color-markup-quote: @nord6;
 
-/*+--------+
-  + Marker +
-  +--------+*/
+/* +--------+
+   + Marker +
+   +--------+ */
 @syntax-bracket-matcher-color: @nord8;
 @syntax-result-marker-color: fade(@nord8, 30%);
 @syntax-result-marker-color-selected: @nord8;
 
-/*+-------+
-  + Sizes +
-  +-------+*/
+/* +-------+
+   + Sizes +
+   +-------+ */
 @syntax-border-radius: 4px;
 
-/*+------------------------+
-  + Default Theme Settings +
-  +------------------------+*/
-/*+--- Accessibility ---+*/
+/* +------------------------+
+   + Default Theme Settings +
+   +------------------------+ */
+
+/* +--- Accessibility ---+ */
 @theme-setting-accessibility-custom-comment-contrast: 0%;

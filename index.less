@@ -1,48 +1,48 @@
 /*
- * Copyright (C) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
- * Copyright (C) 2016-present Sven Greb <development@svengreb.de>
- *
- * Project:    Nord Atom Syntax
- * Repository: https://github.com/arcticicestudio/nord-atom-syntax
- * License:    MIT
- * References:
- *   https://atom.io/docs/api/latest/Atom
- *   https://atom.io/docs
- *   https://github.com/atom/atom/blob/master/static/variables/syntax-variables.less
- *   http://lesscss.org
+ * Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+ * This source code is licensed under the MIT license found in the license file.
  */
 
-/*+---------+
-  + Imports +
-  +---------+*/
-/*+--- Core ---+*/
-@import (reference) "styles/syntax-variables";
-@import "styles/editor";
-@import "styles/syntax";
+/*
+ * References:
+ *   1. https://atom.io/docs/api/latest/Atom
+ *   2. https://atom.io/docs
+ *   3. https://github.com/atom/atom/blob/master/static/variables/syntax-variables.less
+ *   4. http://lesscss.org
+ */
 
-/*+--- Languages ---+*/
-@import "styles/languages/c";
-@import "styles/languages/clojure";
-@import "styles/languages/coffeescript";
-@import "styles/languages/cs";
-@import "styles/languages/css";
-@import "styles/languages/diff";
-@import "styles/languages/elixir";
-@import "styles/languages/gfm";
-@import "styles/languages/glsl";
-@import "styles/languages/go";
-@import "styles/languages/haml";
-@import "styles/languages/haskell";
-@import "styles/languages/html";
-@import "styles/languages/java";
-@import "styles/languages/javascript";
-@import "styles/languages/json";
-@import "styles/languages/julia";
-@import "styles/languages/lesscss";
-@import "styles/languages/php";
-@import "styles/languages/python";
-@import "styles/languages/restructuredtext";
-@import "styles/languages/ruby";
-@import "styles/languages/shell";
-@import "styles/languages/yaml";
-@import "styles/languages/xml";
+/* +------+
+   + Core +
+   +------+ */
+@import (reference) "styles/syntax-variables";
+@import url("styles/editor");
+@import url("styles/syntax");
+
+/* + ----------+
+   + Languages +
+   +-----------+ */
+@import url("styles/languages/c");
+@import url("styles/languages/clojure");
+@import url("styles/languages/coffeescript");
+@import url("styles/languages/cs");
+@import url("styles/languages/css");
+@import url("styles/languages/diff");
+@import url("styles/languages/elixir");
+@import url("styles/languages/gfm");
+@import url("styles/languages/glsl");
+@import url("styles/languages/go");
+@import url("styles/languages/haml");
+@import url("styles/languages/haskell");
+@import url("styles/languages/html");
+@import url("styles/languages/java");
+@import url("styles/languages/javascript");
+@import url("styles/languages/json");
+@import url("styles/languages/julia");
+@import url("styles/languages/lesscss");
+@import url("styles/languages/php");
+@import url("styles/languages/python");
+@import url("styles/languages/restructuredtext");
+@import url("styles/languages/ruby");
+@import url("styles/languages/shell");
+@import url("styles/languages/yaml");
+@import url("styles/languages/xml");

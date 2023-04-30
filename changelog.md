@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://www.nordtheme.com/ports/atom-syntax" target="_blank">
     <picture>
-      <source srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-syntax/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-      <img srcset="https://raw.githubusercontent.com/arcticicestudio/nord-docs/main/assets/images/ports/atom-syntax/repository-hero.svg?sanitize=true" width="100%" />
+      <source srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/atom-syntax/repository-hero.svg?sanitize=true" width="100%" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+      <img srcset="https://raw.githubusercontent.com/nordtheme/web/main/assets/images/ports/atom-syntax/repository-hero.svg?sanitize=true" width="100%" />
     </picture>
   </a>
 </p>
@@ -477,7 +477,7 @@ A complete list of all implemented languages can be found in the milestone backl
 
 <!-- v0.10.0 -->
 
-[nord-docs#168]: https://github.com/arcticicestudio/nord-docs/issues/168
+[nord-docs#168]: https://github.com/nordtheme/web/issues/168
 [nord#55]: https://github.com/nordtheme/nord/issues/55
 [nord#94]: https://github.com/nordtheme/nord/issues/94
 [gh-user-haveanicedavid]: https://github.com/haveanicedavid
